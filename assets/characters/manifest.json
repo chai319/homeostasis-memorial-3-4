@@ -1,0 +1,405 @@
+{
+  "status": "concept; glow around character requires review before runtime use",
+  "generator": "built-in imagegen",
+  "assets": [
+    {
+      "id": "shion",
+      "file": "web/shion.webp",
+      "sha256": "9d22290edf1768584be2026fb12ba6e289c76de86ac2aeef90c011adf87f5a6d",
+      "prompt": "Use case: illustration-story. Create one original full-body transparent-background sprite for a Japanese visual novel: a petite fictional 17-year-old student with fluffy short pale pink-beige hair, gentle round eyes, warm smile, a small hand-knitted heart brooch, slightly long cardigan sleeves, navy blazer and white shirt. Caring atmosphere, soft cel shading, clean line art, school-appropriate. Standing straight and fully visible head to toe, isolated character; no lettering, no watermark, no other characters. Original design, no references to real people or existing franchise characters.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "48e3fbd498cb2c42ded21b8e3040b03743b5d916cd063f9dd2af4ac0415fe85e"
+    },
+    {
+      "id": "shito",
+      "file": "web/shito.webp",
+      "sha256": "b83dc1af59f6e43489a728ee745f5335572cc84e24e4f400f0053b1158df6172",
+      "reference": "shion/concept-warm-smile.png (illustration style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Create an original single-character full-body transparent visual novel sprite of a fictional very tall slender 17-year-old Japanese boy with short neat black hair, calm single-lidded eyes set slightly wide apart, quiet expression, holding a hardcover book, wearing a navy school blazer and white shirt. School-appropriate, head to toe visible, no text, no other figures. Use the provided picture only as a reference for illustration style and uniform palette; create a different character, not the same identity. Avoid any real people or existing franchises.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "3aef7625f7d91bf9225c34b77542e13d705da6771734ca6360ae477a695c8cfa"
+    },
+    {
+      "id": "chin",
+      "file": "web/chin.webp",
+      "sha256": "50cfc7dde8accb4bab435ce7006df89aedbd1253d2c3c8ce7205734d2ab727c2",
+      "reference": "shion/concept-warm-smile.png (style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Original single-character full-body transparent visual novel sprite: fictional 17-year-old Japanese boy, long dreadlocks tied loosely at the back, relaxed sleepy smile, tapping fingers in rhythm, navy school blazer and white shirt, knitted scarf; clean cel-shaded line art, fully visible head to toe, school-appropriate. Preserve the dreadlocks, with no stereotypical or exaggerated racial features. No text, no watermark, no other characters. Use the reference only for consistent art style and school-uniform palette, creating a distinct original person.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "5df7e0f0fefe38f979b95cad8c7b5c68360aed8872f74fed99e7aabefbc2e592"
+    },
+    {
+      "id": "lauren",
+      "file": "web/lauren.webp",
+      "sha256": "ed1abf5ea2fc429e082a2a942ae0ba85f1df26da551b60961a317e8bcacd08ca",
+      "reference": "shion/concept-warm-smile.png (style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Original single-character full-body transparent sprite for a visual novel. Athletic energetic fictional 17-year-old Japanese boy, short see-through mushroom haircut in vivid crimson red, bright golden eyes, confident grin, glasses hooked on his shirt collar and a basketball under one arm. Navy school blazer, white shirt. Full body head to toe, clean cel-shaded line art, school-appropriate. No writing, no watermark, no additional characters, no reference to any real person or existing franchise. Reference image is for art style and uniform palette only, not for character identity.",
+      "edit_prompt": "Remove the pink heart-shaped brooch and the small ribbon below it from his blazer lapel; restore plain navy fabric. Keep all other details, framing and transparent background unchanged.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "1ae912f1d415da64b169b170b55e47c41429258071fd8c4d2d5bbf8d2b1e97ae"
+    },
+    {
+      "id": "kanade",
+      "file": "web/kanade.webp",
+      "sha256": "ebc64aa5f011fe9107e6dc10c0f68ff24be4f01ef3e25101ac9d1bea4734b7f1",
+      "reference": "kanade/concept-neutral.png",
+      "prompt": "Replace only navy blazer with white knitted school cardigan; preserve exact identity, silver hair, sky-blue eyes, full-body pose, kendo bag and transparency",
+      "status": "white cardigan correction",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f63a4a94161a34b5908fd6d84bdb912f09d339cb1bb70e1e5ab4d28427623152"
+    },
+    {
+      "id": "hyoma",
+      "file": "web/hyoma.webp",
+      "sha256": "c2c2004442749181828c30b5e19956c3755c6f7870b9381fc06651ff536ae794",
+      "reference": "shion/concept-warm-smile.png (style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Original single-character full-body transparent visual novel sprite of a fictional composed 17-year-old Japanese boy with center-parted black hair, sharp narrow eyes, neatly tightened tie, holding a planner and mechanical pencil, a wristwatch with a second hand, serious expression. Navy school blazer and white shirt. Full head-to-toe framing, clean cel-shaded line art, school-appropriate. Reference image is for art style and uniform palette only: do not copy the person, hair or heart brooch. No text, no watermark, no other people, no existing franchises or real persons.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "b3ca830429615240c06a8e99b729cf0022ce794b7d5b5a7ac7154341b2ce8a30"
+    },
+    {
+      "id": "eguchi",
+      "file": "web/eguchi.webp",
+      "sha256": "6ac27557c93dc7f01343ca18d2997d086134599868bcc2859a4529055aa6282e",
+      "reference": "shion/concept-warm-smile.png (style only)",
+      "prompt": "Use case: illustration-story. Original full-body transparent visual novel character sprite of a fictional 27-year-old Japanese female homeroom teacher with long straight black hair, elegant and graceful, calm gentle expression, modest blouse and long skirt, holding a small stack of yellow orange and pink sticky notes. Standing, fully visible head to toe, school-appropriate, professional mentor presentation. No romantic framing, no exposed cleavage, no students. Reference image is only for coherent cel-shaded line art, not identity or costume. No text, watermark, or existing franchise references.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "15abf6d60b575be89a83b72d8e14db1c2f162e0adee8a1e2d441fbc91ea41ff3"
+    },
+    {
+      "id": "eguchi_night",
+      "file": "web/eguchi_night.webp",
+      "sha256": "0753aaf4e2564ec9a310498a694fe7d94bec2aded6badb29a3935de43e1a2ee9",
+      "reference": "eguchi/concept-day.png",
+      "prompt": "Edit this full-body fictional teacher sprite into her evening variation. Preserve her identity, face, age, modest blouse and long skirt, clean cel-shaded art style, full-body framing and transparent background. Tie her long black hair into a ponytail, roll her sleeves up, give her a warmly passionate determined expression and a clear pointing gesture as if explaining at a blackboard; hold no blackboard or students. Keep the professional mentor role and school-appropriate modest clothing. No romantic framing, no text, no watermark.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "765bff44b5d5724eeb1bfb991bf77fcfee8c17c06d8d086cfacc43c1c96fddcd"
+    },
+    {
+      "id": "toni_male",
+      "file": "web/toni_male.webp",
+      "sha256": "75d9f41aa834ec388bb8a43c83073ed9ee643cfd19d282e57acefe43d6b4a79a",
+      "reference": "shion/concept-warm-smile.png (style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Original full-body transparent visual novel sprite of a fictional friendly 17-year-old Japanese student, male version, shoulder-length light-brown hair, sleepy-but-cheerful eyes, holding a small sun-shaped keychain, wearing a navy school blazer, white shirt and trousers. A loyal, approachable friend. Full head-to-toe standing pose, clean cel-shaded line art, school-appropriate. Reference image is for art style and uniform palette only: do not copy identity or the heart brooch. No text, watermark, extra people, existing franchise or real person references.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "cfba5ce200ff5977961b90c1a0c30a37b1059f1ea38e7de57d044a609d809444"
+    },
+    {
+      "id": "toni_female",
+      "file": "web/toni_female.webp",
+      "sha256": "383181976c7f7ce74f19f18088a36ab5a152cfb9965d97cfc02d53b75f280407",
+      "reference": "toni/concept-male.png",
+      "prompt": "Create the female version of this fictional teenage school friend for the same visual novel. Keep light brown shoulder-length hair, sleepy cheerful eyes, sun-shaped keychain, navy blazer and white shirt, friendly expression, pose, cel-shaded illustration style, full-body framing and genuinely transparent background. Give her a school-appropriate skirt and a feminine presentation. No text, watermark, additional people or franchise references.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "7c34e95e5a4165651312da186eba985fce39dc95b0024c79b77eb1a6b8481e64"
+    },
+    {
+      "id": "yoko",
+      "file": "web/yoko.webp",
+      "sha256": "97005ce74feb6ee4bd24ff0d840947bf6c15212b6b4a4b39bbf50c10d3e613d5",
+      "reference": "shion/concept-warm-smile.png (style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Original full-body transparent visual novel sprite of a fictional 17-year-old Japanese student, girl with iodine-brown bob haircut, bossy but caring expression, carrying a small bag of kelp snacks, navy school blazer and white shirt. Full head-to-toe standing pose, clean cel-shaded line art, school-appropriate. Reference image is for consistent art style and school-uniform palette only: do not copy person, hair, or hair accessories. No text, watermark, extra people, existing franchise or real person references.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f1f0157fcb6a1bb12388ceab309363e3e5388f75df2633e9dc8f06c594173eb4"
+    },
+    {
+      "id": "toko",
+      "file": "web/toko.webp",
+      "sha256": "081041a486aab7e2b539503710fb20e5b32f2580ec058b9cc4edd80252a59528",
+      "reference": "yoko/concept-angry.png (style and uniform palette only)",
+      "prompt": "Use case: illustration-story. Original full-body transparent visual novel sprite of a fictional small 17-year-old Japanese student, girl with a ponytail and a narrow dark red hair streak, practical and brisk, a lively friendly expression. Navy school blazer and white shirt. Full head-to-toe standing pose, clean cel-shaded line art, school-appropriate. Reference image is for consistent art style and uniform palette only: do not copy the person, bob hairstyle, accessories, or snacks. No text, watermark, extra people, existing franchise or real person references.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "49e9b0dba3bfaba4fc072b58d81d155b99df7e8d1c9d15e3c35f5c223fd900b7"
+    },
+    {
+      "id": "lauren_glasses",
+      "file": "web/lauren_glasses.webp",
+      "sha256": "279c79d2625a726f04c08f881c99becdb087182ff68b960a9d36a62e2c688977",
+      "reference": "lauren/concept-grin.png",
+      "prompt": "Edit this fictional male student visual-novel sprite to a quieter glasses-wearing expression variant. Preserve his red haircut, golden eyes, uniform, basketball, full-body framing, illustration style and transparent background. Move the glasses from his shirt collar onto his face, soften his expression to a tired gentle smile, and make his posture slightly more relaxed. Do not add badges, text, watermark, other people or existing franchise references.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "7857a35c7c9685713da562ffe6eca2babc434a417ef3ab7a5eee14d512b32be7"
+    },
+    {
+      "id": "kanade_battle",
+      "file": "web/kanade_battle.webp",
+      "sha256": "bc0ef5754c7faa002a0af70b69028d19abce53b39d66860cd5876277902bd680",
+      "reference": "kanade/concept-neutral.png",
+      "prompt": "Edit this fictional student visual-novel sprite to a focused protective stance. Preserve his identity, long silver hair, clear blue eyes, white cardigan, navy blazer, tie, bamboo sword bag, full-body framing, illustration style and transparent background. Give him sharp focused eyes and a protective stance, one hand holding the sword-bag strap. Keep the bamboo sword inside the bag and do not point it at anyone. School-appropriate; no text, watermark, other people or references to existing franchises.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "cfcc04528082f40a9efd2e9b5a21b705884642a857cd757ddfab4336c89fdad7"
+    },
+    {
+      "id": "shion_neutral",
+      "file": "web/shion_neutral.webp",
+      "sha256": "458d75c1846ec70e63d3fcad5f7acbb6d83fe94aa35eb1804386f66b20cb56d3",
+      "reference": "shion/concept-warm-smile.png",
+      "prompt": "Edit this fictional visual-novel character sprite to a neutral expression. Preserve her identity, short pale pink-beige hair, heart brooch, navy uniform, cardigan, hands, pose, clean illustration style, full-body framing and transparent background. Change only the face to a calm relaxed neutral expression with mouth closed. No text, watermark, other people or new objects.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "9962892ea01dac3410f88a3197700f2eaee3987e377c9735463ab0709a53c41f"
+    },
+    {
+      "id": "shion_atlas",
+      "file": "web/shion_atlas.webp",
+      "sha256": "e7ab1e8c82fc970253e1721b416a3f7bda3af944915705b7b3e2f295364f6fd4",
+      "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve her exact identity, hair, school uniform and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, with no margins or gutters. In every cell render the same upper-body portrait, waist up, with head at the same position and scale and hands below the chest. Reading order left to right then next row: neutral, happy warm smile, worried, shy blushing, tearful, surprised. No words, no labels, no grid lines, no accessories added, no other people. The character must stay wholly inside her own cell, never cross cell boundaries.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "shion",
+      "expressions": [
+        "neutral",
+        "happy",
+        "worried",
+        "blush",
+        "tearful",
+        "surprised"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "4f44c8557df414b2ffefe7b096d96175ddca6662224154b540b4df3cc4061d1d"
+    },
+    {
+      "id": "shito_atlas",
+      "file": "web/shito_atlas.webp",
+      "sha256": "b676adea1fde5202863926f083f7f18c9c13cf168f90a97ceb94eceafe1f4f32",
+      "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve exact identity, hair, school uniform, props and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, no margins or gutters. Every cell is the same upper-body portrait, waist up, same head position and scale, hands below the chest. Reading order left to right then next row: neutral, faint smile, deadpan, blushing, lonely, surprised. No words, labels, grid lines, new accessories or other people. Each portrait stays wholly inside its own cell. School-appropriate expressions and clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "shito",
+      "expressions": [
+        "neutral",
+        "faint_smile",
+        "deadpan",
+        "blush",
+        "lonely",
+        "surprised"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f23635f197a3b1c18786eb4ef2f5d07709914414bbf85c8389631ab965f2d05f"
+    },
+    {
+      "id": "chin_atlas",
+      "file": "web/chin_atlas.webp",
+      "sha256": "7b0a61e78882d8290269670efd8da2101bc08376b84e28a7c885ef2bc4b7f2a3",
+      "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve exact identity, hair, school uniform, props and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, no margins or gutters. Every cell is the same upper-body portrait, waist up, same head position and scale, hands below the chest. Reading order left to right then next row: neutral, warm smile, cold and chilly, sweaty and hot, irritated, blushing. No words, labels, grid lines, new accessories or other people. Each portrait stays wholly inside its own cell. School-appropriate expressions and clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "chin",
+      "expressions": [
+        "neutral",
+        "warm_smile",
+        "cold",
+        "sweaty",
+        "irritated",
+        "blush"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "29018c4521ddd1ebfcdb2c12664f0859a51b139e942352ececf0ee525352012b"
+    },
+    {
+      "id": "lauren_atlas",
+      "file": "web/lauren_atlas.webp",
+      "sha256": "c838e763b8d4b75f4758338e36781f1f337d30868e8d96366b53e66cf3de0bee",
+      "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve exact identity, hair, school uniform, props and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, no margins or gutters. Every cell is the same upper-body portrait, waist up, same head position and scale, hands below the chest. Reading order left to right then next row: neutral, grin, serious, blushing, wearing his glasses with neutral face, wearing his glasses and smiling. No words, labels, grid lines, new accessories or other people. Each portrait stays wholly inside its own cell. School-appropriate expressions and clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "lauren",
+      "expressions": [
+        "neutral",
+        "grin",
+        "serious",
+        "blush",
+        "glasses",
+        "glasses_smile"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "c35c7dd7ea31aa535c58a1aad991a501936af02d4a9898a9c3c54b73ec3d4b20"
+    },
+    {
+      "id": "kanade_atlas",
+      "file": "web/kanade_atlas.webp",
+      "sha256": "8c325aef9598bb60ed419dde974f250a52c176d5200a3168bdab123ff85db184",
+      "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve exact identity, hair, school uniform, props and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, no margins or gutters. Every cell is the same upper-body portrait, waist up, same head position and scale, hands below the chest. Reading order left to right then next row: neutral, smile, determined protective battle face, feverish, blushing, lonely. No words, labels, grid lines, new accessories or other people. Each portrait stays wholly inside its own cell. School-appropriate expressions and clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "kanade_unused",
+      "expressions": [
+        "neutral",
+        "smile",
+        "battle",
+        "feverish",
+        "blush",
+        "lonely"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f401c8d83a8e98697aec3be6e9298eff5713e9d05c7c57ded12fc75e8d18e9ac"
+    },
+    {
+      "id": "hyoma_atlas",
+      "file": "web/hyoma_atlas.webp",
+      "sha256": "bc28c82ac6fa6d9ce13fff580f8d1fc997770235831c946cefc993f959c1b1c9",
+      "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve exact identity, hair, school uniform, props and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, no margins or gutters. Every cell is the same upper-body portrait, waist up, same head position and scale, hands below the chest. Reading order left to right then next row: neutral, small restrained smile, frown, tired, blushing, surprised. No words, labels, grid lines, new accessories or other people. Each portrait stays wholly inside its own cell. School-appropriate expressions and clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "hyoma",
+      "expressions": [
+        "neutral",
+        "small_smile",
+        "frown",
+        "tired",
+        "blush",
+        "surprised"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "2f84307cbc68e4a18bbd3ee14364a22a5b78cbb77ef49c4af4e15f815ac703be"
+    },
+    {
+      "id": "eguchi_atlas",
+      "file": "web/eguchi_atlas.webp",
+      "sha256": "56fee4137a470328b325eae31c5f15b4c65e6fd45c9e19d95ea621eb68be7991",
+      "prompt": "Edit the referenced original fictional visual-novel character into a production expression sprite atlas. Preserve exact identity, age, hair, school-appropriate clothing and illustration style. Transparent background. Precisely regular 3-column by 2-row grid, six equal square cells, no margins, gutters or grid lines. Each cell has the same upper-body portrait, waist up, same head position and scale. Reading order: neutral with hair down, gentle smile with hair down, energetic confident face with hair tied back, smile with hair tied back, troubled with hair down, teary with hair down. No text, labels, logos, new accessories or other people. Every portrait stays inside its own cell. Professional respectful presentation; for teacher preserve her modest adult professional clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "eguchi",
+      "expressions": [
+        "day_neutral",
+        "day_smile",
+        "unused_night",
+        "unused_night_smile",
+        "troubled",
+        "teary"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "5d228758fbbd4c1705c51ede6a9ab6d7f85cc124b0cdebea282945db0c4b5ab2"
+    },
+    {
+      "id": "toni_male_atlas",
+      "file": "web/toni_male_atlas.webp",
+      "sha256": "0a04f54a5ca746072956ec8efb5abfb32aa0ae681a9bb528b5913243ee814d2a",
+      "prompt": "Edit the referenced original fictional visual-novel character into a production expression sprite atlas. Preserve exact identity, age, hair, school-appropriate clothing and illustration style. Transparent background. Precisely regular 3-column by 2-row grid, six equal square cells, no margins, gutters or grid lines. Each cell has the same upper-body portrait, waist up, same head position and scale. Reading order: neutral, happy, exasperated, sleepy, blushing, worried. No text, labels, logos, new accessories or other people. Every portrait stays inside its own cell. Professional respectful presentation; for teacher preserve her modest adult professional clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "toni_male",
+      "expressions": [
+        "neutral",
+        "happy",
+        "exasperated",
+        "sleepy",
+        "blush",
+        "worried"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "36c387e1db9a5185fb30b9ffe76ec42ded96143a49f93dfd40398c7dd5168702"
+    },
+    {
+      "id": "toni_female_atlas",
+      "file": "web/toni_female_atlas.webp",
+      "sha256": "79038466a8fa46d76e9fa5956d5ef5f2f0991438da62e9c5d1d7477dce5992f4",
+      "prompt": "Edit the referenced original fictional visual-novel character into a production expression sprite atlas. Preserve exact identity, age, hair, school-appropriate clothing and illustration style. Transparent background. Precisely regular 3-column by 2-row grid, six equal square cells, no margins, gutters or grid lines. Each cell has the same upper-body portrait, waist up, same head position and scale. Reading order: neutral, happy, exasperated, sleepy, blushing, worried. No text, labels, logos, new accessories or other people. Every portrait stays inside its own cell. Professional respectful presentation; for teacher preserve her modest adult professional clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "toni_female",
+      "expressions": [
+        "neutral",
+        "happy",
+        "exasperated",
+        "sleepy",
+        "blush",
+        "worried"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "4f5179cb060a9ebac214bc601db2d0aa4d3a33f505a68deba63baf3108a7d522"
+    },
+    {
+      "id": "yoko_atlas",
+      "file": "web/yoko_atlas.webp",
+      "sha256": "d6271895bd10d918440d7acf23663c37a0dc7d1f60604e82d63476506ef00289",
+      "prompt": "Edit the referenced original fictional visual-novel character into a production expression sprite atlas. Preserve exact identity, age, hair, school-appropriate clothing and illustration style. Transparent background. Precisely regular 3-column by 2-row grid, six equal square cells, no margins, gutters or grid lines. Each cell has the same upper-body portrait, waist up, same head position and scale. Reading order: neutral, happy, angry, neutral, happy, angry. No text, labels, logos, new accessories or other people. Every portrait stays inside its own cell. Professional respectful presentation; for teacher preserve her modest adult professional clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "yoko",
+      "expressions": [
+        "neutral",
+        "happy",
+        "angry"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "c3f2f1184522b9ad5b8d81623aeeee40e2ee8d763c88051013132970c8241335"
+    },
+    {
+      "id": "toko_atlas",
+      "file": "web/toko_atlas.webp",
+      "sha256": "f3961ed0a8362a927bc85595568389121a67f6035ce882f9ccdd782c93ff9af1",
+      "prompt": "Edit the referenced original fictional visual-novel character into a production expression sprite atlas. Preserve exact identity, age, hair, school-appropriate clothing and illustration style. Transparent background. Precisely regular 3-column by 2-row grid, six equal square cells, no margins, gutters or grid lines. Each cell has the same upper-body portrait, waist up, same head position and scale. Reading order: neutral, happy, angry, neutral, happy, angry. No text, labels, logos, new accessories or other people. Every portrait stays inside its own cell. Professional respectful presentation; for teacher preserve her modest adult professional clothing.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "columns": 3,
+      "rows": 2,
+      "character": "toko",
+      "expressions": [
+        "neutral",
+        "happy",
+        "angry"
+      ],
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "d53741d8206260679a9730c7c06962482b787f137fcbba3ec0763a266eee772b"
+    },
+    {
+      "id": "kanade_atlas_corrected",
+      "file": "web/kanade_atlas_corrected.webp",
+      "character": "kanade",
+      "columns": 3,
+      "rows": 2,
+      "expressions": [
+        "neutral",
+        "smile",
+        "battle",
+        "feverish",
+        "blush",
+        "lonely"
+      ],
+      "sha256": "04a38381852081d110ced26ee85cf1ea2a9fcbb60755139eb7fce5c631514f5e",
+      "reference": "exec-038c6802-7741-4d18-ac1d-5f42ee1ff1e5.png",
+      "prompt": "Correct white cardigan / tied-back night hairstyle while preserving identity and atlas arrangement",
+      "status": "visually reviewed; soft translucent edge glow retained",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "79369745910c37857b1091757e87ce6933d844501302c54a4edbfed53e8317dd"
+    },
+    {
+      "id": "eguchi_night_atlas",
+      "file": "web/eguchi_night_atlas.webp",
+      "character": "eguchi_night",
+      "columns": 2,
+      "rows": 1,
+      "expressions": [
+        "night",
+        "night_smile"
+      ],
+      "sha256": "361dfc5012d59c5e9b037ff099dd5d05b5d6531caf7ae35e38e15301348015cd",
+      "reference": "exec-77564a23-78e8-4a84-9cc9-7638f907241e.png",
+      "prompt": "Correct white cardigan / tied-back night hairstyle while preserving identity and atlas arrangement",
+      "status": "contact sheet reviewed: identity, grid and expression order",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "2ac904ccf83f533456156677a6f70470a5367cbf77dd697279f06d43f2a6afc0"
+    }
+  ]
+}

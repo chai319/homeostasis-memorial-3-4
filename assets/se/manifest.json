@@ -1,0 +1,268 @@
+{
+  "generator": "tools/generate-se.py",
+  "license": "original synthesized audio for this project",
+  "assets": [
+    {
+      "id": "se_beat",
+      "file": "mastered/se_beat.wav",
+      "sha256": "a7a0055554bc8039bacf4e005302226f8ced59444d380943140cf1bec12d27b1",
+      "status": "level-matched original synthesized cue",
+      "measurement": {
+        "rms_dbfs": -18.89,
+        "peak_dbfs": -5.61,
+        "gain": 0.8182,
+        "sample_rate": 44100
+      },
+      "master_sha256": "0685edfd7f0973a0664e422a8c875d1d1eceaf48209be542b8adfa87c2de26f1"
+    },
+    {
+      "id": "se_pin",
+      "file": "mastered/se_pin.wav",
+      "sha256": "2067f84c3501a29230d96d8bd3c34dc79d2c8a7b42be100c1934b54d48625938",
+      "status": "level-matched original synthesized cue",
+      "measurement": {
+        "rms_dbfs": -19.27,
+        "peak_dbfs": -3.76,
+        "gain": 1.9989,
+        "sample_rate": 44100
+      },
+      "master_sha256": "1ebf92ee6979d303c2055f14e322849974d628cfa606713f42d04481b9619a3e"
+    },
+    {
+      "id": "se_goal_star",
+      "file": "mastered/se_goal_star.wav",
+      "sha256": "750aa7c5dadfde09b90d054fc1acbd1bdcaa7dd86359a6a07578734478368bb5",
+      "status": "level-matched original synthesized cue",
+      "measurement": {
+        "rms_dbfs": -18.62,
+        "peak_dbfs": -2.18,
+        "gain": 1.6375,
+        "sample_rate": 44100
+      },
+      "master_sha256": "975b8e0a3492209e13669aa37ff2c35b75ebc9659ec75af3060f698c151d33af"
+    },
+    {
+      "id": "se_gift",
+      "file": "mastered/se_gift.wav",
+      "sha256": "e231f7e42e433abb7e638ba9a39ac925afb1d699ad25ea7c1ecd460830558a22",
+      "status": "level-matched original synthesized cue",
+      "measurement": {
+        "rms_dbfs": -18.69,
+        "peak_dbfs": -3.7,
+        "gain": 4.4456,
+        "sample_rate": 44100
+      },
+      "master_sha256": "28381aca28f04a6ec2465f43e96e987ffd0f695a6d6b562d791d086f158743ee"
+    },
+    {
+      "id": "se_fusen_stick",
+      "file": "mastered/se_fusen_stick.wav",
+      "sha256": "a002cc05141268144648dc18785a5d1066c072bf7dfa7414329152d04d56a846",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.45,
+        "peak_dbfs": -1.86,
+        "gain": 3.3476,
+        "sample_rate": 44100
+      },
+      "master_sha256": "117b5c0991e902f920f72d89d139a4a7dcff614ff2f36de7c9027079ebe76ec9"
+    },
+    {
+      "id": "se_fusen_peel",
+      "file": "mastered/se_fusen_peel.wav",
+      "sha256": "93c736afe45af2d82c809800894600a7671bdbcdc5010d20293d0b7a73a1c39f",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -5.91,
+        "gain": 3.2476,
+        "sample_rate": 44100
+      },
+      "master_sha256": "baeeb89801f2a22adc6b30bdfd4833225509f3176aef2b05b4e3f5a1fd7e31f4"
+    },
+    {
+      "id": "se_heartbeat",
+      "file": "mastered/se_heartbeat.wav",
+      "sha256": "2c2b58db2dddc842af130e9ae22d85bb21fe1e1fb5e28d56719aa8a5e2e0ba55",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.43,
+        "peak_dbfs": -3.09,
+        "gain": 1.543,
+        "sample_rate": 44100
+      },
+      "master_sha256": "64871c9261b042dffe89e0f8c4342bcb5c9e0f9f1a15fd4735f5440d9bf73194"
+    },
+    {
+      "id": "se_sneeze_male",
+      "file": "mastered/se_sneeze_male.wav",
+      "sha256": "f2bdcef36b8c9d885498cb0bf8defbcef85b1d737606a6da9119781a9930dbae",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -8.46,
+        "gain": 1.4223,
+        "sample_rate": 44100
+      },
+      "master_sha256": "b0d22451eefa1f2fe290df7bc6c68944c00371cba76ddf42923bbd7bbdfdca19"
+    },
+    {
+      "id": "se_sneeze_female",
+      "file": "mastered/se_sneeze_female.wav",
+      "sha256": "9cef6374da78010a9d4ccf390012b324e620208c4d93a3fefa70e2622c5bc008",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -7.38,
+        "gain": 2.1346,
+        "sample_rate": 44100
+      },
+      "master_sha256": "230d3f4cfbfa8e5de876c618e821636b27d0faf2fbce8eff155bb2fc953e5be7"
+    },
+    {
+      "id": "se_chalk",
+      "file": "mastered/se_chalk.wav",
+      "sha256": "1e9bbc69d2efe40bb75e08a162e306c8498fbfb30ce4d22bde6461919cfb31b9",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -5.64,
+        "gain": 5.4582,
+        "sample_rate": 44100
+      },
+      "master_sha256": "d2f207283ea3dfcd7611a2fe3fb46204a1098e6f23bf4bd111afb058796bfb13"
+    },
+    {
+      "id": "se_ball_swish",
+      "file": "mastered/se_ball_swish.wav",
+      "sha256": "f11405f326ecfd056f1baf5a5da2ec7e12da3ebdea8e7c0033c9ca15b0099f37",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -4.89,
+        "gain": 1.8924,
+        "sample_rate": 44100
+      },
+      "master_sha256": "1a3cac96b7d05647415e8155caeaddbf06a7e0c5cc5b105c7ed334c67dd0f50f"
+    },
+    {
+      "id": "se_shinai",
+      "file": "mastered/se_shinai.wav",
+      "sha256": "62e3568ab4a9eb606ecda42742e80e186998b61a8e6174aae76911fe8a43a4e3",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.45,
+        "peak_dbfs": -2.27,
+        "gain": 2.3284,
+        "sample_rate": 44100
+      },
+      "master_sha256": "cf3672fe41a3806d3ce259c98874d8f3dfa3172e1cc16dc9aa7b8677ee76fadf"
+    },
+    {
+      "id": "se_knife",
+      "file": "mastered/se_knife.wav",
+      "sha256": "a787fa6831d332eda904808b7265a39a60acf41a26a4a4e67cc511341cdf836f",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.45,
+        "peak_dbfs": -3.74,
+        "gain": 2.0895,
+        "sample_rate": 44100
+      },
+      "master_sha256": "14e992b5c7b223e5d35255d94fab3e1307ae70200d555c9df162a2809b6ff2c5"
+    },
+    {
+      "id": "se_iodine",
+      "file": "mastered/se_iodine.wav",
+      "sha256": "3c7ff5f14800c3227ec934d9a2fc3980b4161d1bb39d84e5ab234920bc7b06d3",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -1.51,
+        "gain": 3.1587,
+        "sample_rate": 44100
+      },
+      "master_sha256": "5b04118524554e11010fc5683002f3842fc522651c2e52130a4e17a75e6ce5e7"
+    },
+    {
+      "id": "se_hanmei",
+      "file": "mastered/se_hanmei.wav",
+      "sha256": "382346390bfc37f2fadeb1e558ad18d3f147207e5c6084587864a87dfc3096d4",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -19.18,
+        "peak_dbfs": -1.51,
+        "gain": 3.0951,
+        "sample_rate": 44100
+      },
+      "master_sha256": "11819e0fdcf0b58ae72b04eb5c779e9a32b734204c9c7c86054090d5ec57214d"
+    },
+    {
+      "id": "se_shutter",
+      "file": "mastered/se_shutter.wav",
+      "sha256": "89c930a44797ecaaf60ffaff2cf1da33859cbee6ccaf4e67c0281b55988504ac",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -3.72,
+        "gain": 3.1646,
+        "sample_rate": 44100
+      },
+      "master_sha256": "8fe197e4984481d6e960807ad3805feec0271551235468ac6b489a3454940180"
+    },
+    {
+      "id": "se_bonfire",
+      "file": "mastered/se_bonfire.wav",
+      "sha256": "cca90f4e4b4e7a987ed4b5fbc2c2649912bb5b8470f9945aa7596fe630f9f684",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.68,
+        "peak_dbfs": -1.51,
+        "gain": 4.0838,
+        "sample_rate": 44100
+      },
+      "master_sha256": "050a3a357c6ecbaef4d9edb200473d433bb41a841402091163bb9315d345153e"
+    },
+    {
+      "id": "se_rain_amb",
+      "file": "mastered/se_rain_amb.wav",
+      "sha256": "1b0b0411b92255e3fc63e06fc598c645f1ebe088c7eb7e920ee7441604512dfc",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -11.64,
+        "gain": 2.9206,
+        "sample_rate": 44100
+      },
+      "master_sha256": "3a0921e7ad937217a9ecced827d1321a573962f15fae3471c6148f9ecdff9ffc"
+    },
+    {
+      "id": "se_chime",
+      "file": "mastered/se_chime.wav",
+      "sha256": "f513f5efbb05ad44300fb91ed2ef691567dc6902c1e52468259e77ca6a17e58e",
+      "status": "level-matched original synthesized cue",
+      "generator": "tools/generate-se-more.py",
+      "measurement": {
+        "rms_dbfs": -18.42,
+        "peak_dbfs": -7.02,
+        "gain": 2.6881,
+        "sample_rate": 44100
+      },
+      "master_sha256": "6858b866c386ecaa4a39dc58370e34f0f700da8955e96034b95c653516320360"
+    }
+  ]
+}

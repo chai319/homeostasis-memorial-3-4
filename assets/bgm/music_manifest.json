@@ -1,0 +1,184 @@
+{
+  "generator": "tools/generate-bgm.py",
+  "license": "original synthesized audio for this project",
+  "interim_from_v4": false,
+  "assets": [
+    {
+      "id": "title",
+      "file": "mastered/title.wav",
+      "sha256": "632d63c0a17359703b9da9244f9cbe1281319e3497093fedced0f9d70d7e904f",
+      "status": "level-matched original synthesized cue",
+      "bpm": 84,
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.81,
+        "gain": 1.5115,
+        "sample_rate": 44100
+      },
+      "master_sha256": "74b068a167ad775482e8a49ba424e774384dbecc0eee609864741218620e7607"
+    },
+    {
+      "id": "morning",
+      "file": "mastered/morning.wav",
+      "sha256": "727553e91b9846900114b21a0b4c02a40bae1067738e12c7d069613cc628dab6",
+      "status": "level-matched original synthesized cue",
+      "bpm": 96,
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.9,
+        "gain": 1.4635,
+        "sample_rate": 44100
+      },
+      "master_sha256": "e2e7ee790160fd54e903afb648f9b35bf4b3c64a3c778d7a725083c224676ca6"
+    },
+    {
+      "id": "daily",
+      "file": "mastered/daily.wav",
+      "sha256": "8fd08fe078ae8982b78fc7c5812fc87f422908a7609d650515f37e20410d69f7",
+      "status": "level-matched original synthesized cue",
+      "bpm": 108,
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -8.27,
+        "gain": 1.4331,
+        "sample_rate": 44100
+      },
+      "master_sha256": "6d8ad3e1e2a370cd156446c70c8cbe9c17eb56294ada0e75a663bcd68f835d79"
+    },
+    {
+      "id": "evening_class",
+      "file": "mastered/evening_class.wav",
+      "sha256": "838efe858cf218f13f1a0a69622708767bee7c4ad0a94ee81c89332280a2f28a",
+      "status": "level-matched original synthesized cue",
+      "bpm": 78,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.56,
+        "gain": 1.6739,
+        "sample_rate": 44100
+      },
+      "master_sha256": "65c3c9a93cf00b1a16669de4365ebdeb9b038b8d10148e4737257312c365a529"
+    },
+    {
+      "id": "gate_walk",
+      "file": "mastered/gate_walk.wav",
+      "sha256": "54e316b54d1b6eb59d0a505271aaac5ac6b27a20c55ed4af07d9654854e03c20",
+      "status": "level-matched original synthesized cue",
+      "bpm": 92,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.74,
+        "gain": 1.6099,
+        "sample_rate": 44100
+      },
+      "master_sha256": "b9dfb1598cfbb1fb683d5abaa6c23a6584c66301bbacfcf818ed87dfa6ba81e9"
+    },
+    {
+      "id": "event",
+      "file": "mastered/event.wav",
+      "sha256": "17ca2e9c63512f3a4fbf4c6ec6601527d1840380b2ff4b6cda7b1ad1793cabe6",
+      "status": "level-matched original synthesized cue",
+      "bpm": 114,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -8.82,
+        "gain": 1.5621,
+        "sample_rate": 44100
+      },
+      "master_sha256": "c9cbf54ad13e63890a41721381879adf8436d1429da6813e85f4a3a433a70646"
+    },
+    {
+      "id": "room",
+      "file": "mastered/room.wav",
+      "sha256": "10dc8df8029148142d600c13707e3cb4b933921ef15f6012981f5536cc2e25ef",
+      "status": "level-matched original synthesized cue",
+      "bpm": 72,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.26,
+        "gain": 1.6654,
+        "sample_rate": 44100
+      },
+      "master_sha256": "df6c584997354e2235259887987e818335cd86bbdd5921cdb494e1f5fa4e57c3"
+    },
+    {
+      "id": "rainy",
+      "file": "mastered/rainy.wav",
+      "sha256": "5d0b61a92b356838bf61eaeb1fa8c85832ec95d173241f9c1410a5e614b6559b",
+      "status": "level-matched original synthesized cue",
+      "bpm": 76,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.88,
+        "gain": 1.6857,
+        "sample_rate": 44100
+      },
+      "master_sha256": "ae9a4bb74a60fbfaa4a766478078265de601e1ee9f8edf355246ea9d6c7eff4e"
+    },
+    {
+      "id": "story",
+      "file": "mastered/story.wav",
+      "sha256": "27cd7cb64e246dfab6af2beac2c261c29bc8187267bc83ad7118b26d61b11728",
+      "status": "level-matched original synthesized cue",
+      "bpm": 84,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.58,
+        "gain": 1.648,
+        "sample_rate": 44100
+      },
+      "master_sha256": "45e8e75bba7a154901e7f1e2a67967bfd7a551d5add4a2c01f2df5f4c2270f69"
+    },
+    {
+      "id": "crisis",
+      "file": "mastered/crisis.wav",
+      "sha256": "84b82fd2d54773d4eea29c24982bbfec80c2cf3a52353499abf107294395574d",
+      "status": "level-matched original synthesized cue",
+      "bpm": 122,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -8.56,
+        "gain": 1.5602,
+        "sample_rate": 44100
+      },
+      "master_sha256": "0f7d0d91da6024302d9209d386fcb3fae53779416b05d70a0c69c84cfcde7b83"
+    },
+    {
+      "id": "afterparty",
+      "file": "mastered/afterparty.wav",
+      "sha256": "37117a8427aee67f34c29b04d01d3ad672c9c02c6c0f37d206b4eb95d7dfe405",
+      "status": "level-matched original synthesized cue",
+      "bpm": 88,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.72,
+        "gain": 1.6287,
+        "sample_rate": 44100
+      },
+      "master_sha256": "d318534c3327c0d13374402969dce3a0ae6d98147165f66bf519d3fe0dfa358b"
+    },
+    {
+      "id": "ending",
+      "file": "mastered/ending.wav",
+      "sha256": "2d686aa551a57e8a8241382f99fff589ce9e69f73e02063271f7ef130e6a5489",
+      "status": "level-matched original synthesized cue",
+      "bpm": 72,
+      "generator": "tools/generate-bgm-more.py",
+      "measurement": {
+        "rms_dbfs": -20.01,
+        "peak_dbfs": -7.26,
+        "gain": 1.7023,
+        "sample_rate": 44100
+      },
+      "master_sha256": "ce9515c7a819b54ef1215aa9c22e6c40aac7c2621c218ebac438d1c0e4f8490c"
+    }
+  ]
+}

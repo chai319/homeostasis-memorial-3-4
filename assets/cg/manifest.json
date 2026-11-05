@@ -1,0 +1,194 @@
+{
+  "assets": [
+    {
+      "id": "cg_ginkgo_shion",
+      "file": "web/cg_ginkgo_shion.webp",
+      "sha256": "f0e6f4e2724d7eeb665116474d5c5ee7dae6f73e0d449dc1be508e3ed82466cb",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "0e6b33760dde45f1c3cb4acdd1e6f86ff9ab76b37ee4669041f4306020149473"
+    },
+    {
+      "id": "cg_ginkgo_shito",
+      "file": "web/cg_ginkgo_shito.webp",
+      "sha256": "c3c6043164d2c3db53ced457375b33d541580061bab852b63c8477e43a1c8f3f",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "0f6a88b967611b2c66d762f2c789d10618bea51ff2d1ca988345b6b86138d051"
+    },
+    {
+      "id": "cg_ginkgo_chin",
+      "file": "web/cg_ginkgo_chin.webp",
+      "sha256": "7ffa92d641e844390ba10657251c0c7a6c18668a94d596b03f4789c3aee3362a",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "ec8c5f4fdf232f79cad848484dc3e70a5e2769eef93f6c84b09111fbb99493ef"
+    },
+    {
+      "id": "cg_ginkgo_lauren",
+      "file": "web/cg_ginkgo_lauren.webp",
+      "sha256": "79f45489ceebb8d3c356516459c9750640e81502ecf7d6b97fe174876866f9e2",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "34f70247e40ef2cb896e0ec233c86a50d2a47672680a52f23a82b37bf61c352b"
+    },
+    {
+      "id": "cg_ginkgo_kanade",
+      "file": "web/cg_ginkgo_kanade.webp",
+      "sha256": "0b910df9b0c574a3d28e0f93f12bad4c97ee660034dcce83e63119a3796060fb",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "91666e3ec389f80f187ac9b08b819a7292471648351f9c23f81f391601b421f5"
+    },
+    {
+      "id": "cg_ginkgo_hyoma",
+      "file": "web/cg_ginkgo_hyoma.webp",
+      "sha256": "9fefeb5b5994315dab4d6c05981a7b8b4270ca7aa4ca48c4ca83517679ff5e61",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "b0024d9c10a5e331ab9db44ef0fc4e558a885fe0a012ae02284de599a1678dcd"
+    },
+    {
+      "id": "cg_curry",
+      "file": "web/cg_curry.webp",
+      "sha256": "80a9c4704f61a07797fc3aeeafc5dd87c57c0bc891548a9d36ee7582e2bb1fff",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. The referenced fictional dark-haired male student quietly chops carrots on a cutting board in a sheltered outdoor school camp kitchen beside a lake. Two other fully clothed fictional students, seen from behind and without clear faces, chop vegetables in the same calm rhythm. Safe knife handling, ingredients neatly arranged. Preserve the referenced student's exact identity, uniform and style. Wholesome ordinary school activity. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "484c14058d87d801a2afe61f3c11bf0a9f4dc777ad96947a8fe89d40c98516ee"
+    },
+    {
+      "id": "cg_iodine",
+      "file": "web/cg_iodine.webp",
+      "sha256": "2c94fecf783ec8736e43deb1d1fc117a7c6b2505e7baf5ddbf8e1cb87ce8dc18",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. School science club experiment: a cut potato on a laboratory tray turns deep blue-purple where iodine solution was added. The referenced fictional student watches from behind the tray with comically surprised blue-purple blush on her cheeks, not an injury. Preserve identity, hair and school uniform. Goggles rest beside the tray; no drinking or tasting. Focus on the potato reaction and facial expression. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "a3dcfa9ec667e478b41bad9eae4963b52976b7cf64ceec4305a9de6dbb290a53"
+    },
+    {
+      "id": "cg_toni_photo",
+      "file": "web/cg_toni_photo.webp",
+      "sha256": "7862a895557b51be5e550bacbbfa1f7cd8084a58af8d735e8e58998967247763",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. Wholesome school sports-festival commemorative photograph at sunset. The referenced fictional short-haired student Toni stands beside an anonymous fully clothed older school athlete in a tracksuit, both making peace signs toward a smartphone held by the referenced red-haired basketball student at the edge of the frame. Athletic school grounds with pennants. Friendly shy smiles, no romance with adults, no readable text. Preserve both referenced identities and uniforms. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "237f9748b57cde7944a26bdc8d6bd81c00bc4482e642b0cb621d2986b40c93f0"
+    },
+    {
+      "id": "cg_toni_photo_group",
+      "file": "web/cg_toni_photo_group.webp",
+      "sha256": "fda3ddc91977c450a2c989d7cd3b07feaebef085f8c0d03814d1220b16edccb5",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. Wholesome school sports-festival group photograph at sunset. The two referenced fictional students Toni and the red-haired basketball boy stand beside an anonymous fully clothed older school athlete in a tracksuit. Three students making friendly peace signs toward the viewer's camera. School grounds with pennants. Preserve both referenced identities, hair and clothing. No readable text. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "5615799c3ca2dbb6bed16f585efede89f560300a45e54044e6e259283644d686"
+    },
+    {
+      "id": "cg_toni_photo_group_male",
+      "file": "web/cg_toni_photo_group_male.webp",
+      "sha256": "8a0bf20f1ac74be55c22b5fc1fc9a5c60597d623c5abda7b94ef2bdd4af69666",
+      "prompt": "Create an original polished anime visual-novel event CG, single wide 16:9 composition. Wholesome school sports-festival commemorative photo at sunset on a school athletic ground with pennants. The first reference is male Toni, an original fictional short-haired boy: preserve his exact male identity, hair and uniform. The second reference is the original red-haired basketball boy Lauren: preserve his identity and clothes. Toni, Lauren and an anonymous older fully clothed male school athlete in a tracksuit stand together, three friendly peace signs toward the viewer's camera. Friendly shy smiles, ordinary school friendship, no adult romance, no text, logos or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "3fbeeee8fe12fe7bdf7f9f82dae0db01751dc6fd786589e39f4ac8d82a5b3263"
+    },
+    {
+      "id": "cg_fusen",
+      "file": "web/cg_fusen.webp",
+      "sha256": "466563602572487a5e5a4d53252cef144bde8a904464773decdd80725feb11f1",
+      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A respectful school-festival story climax in a Japanese high-school staff room at sunset. The referenced adult female teacher, modestly dressed and with her black hair tied back, gently removes yellow and orange sticky notes from the shoulders of the two referenced fully clothed male students. A few sticky notes on the floor, the students visibly relieved after overworking, teacher concerned and caring in a professional mentoring role. Preserve all three exact identities and clothes, including the dreadlocks and scarf of the first boy and the dark center-parted hair of the second. No romantic or sexual framing. No readable words. No labels, logo or watermark.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "b2041b4e77e279aea1b83b3435014fb69d817797af26b6163770a9f169179d23"
+    },
+    {
+      "id": "cg_ginkgo_shion_suki",
+      "file": "web/cg_ginkgo_shion_suki.webp",
+      "sha256": "6732f1956a1704928f944b2efdb5feec100e28763a8169ec52de25c41e2400e4",
+      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "3b48b58d76adbcbbf5da87bcfc0e4f62db9e713a243a6e385c38ba90bc174501"
+    },
+    {
+      "id": "cg_ginkgo_shito_suki",
+      "file": "web/cg_ginkgo_shito_suki.webp",
+      "sha256": "ff65593a8dfed1c300fd4aa98056e134f7f1c305247034d5c1fd745818fb33e3",
+      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "bae23d3df588166bbdc5f0f7d5ba34e0aa0693284e22e0affcfce9932ab38048"
+    },
+    {
+      "id": "cg_ginkgo_chin_suki",
+      "file": "web/cg_ginkgo_chin_suki.webp",
+      "sha256": "1c3e47d0ab509ed68b980852ad59dcb73d5e5d976ffa8d75796c2bb0117b8b86",
+      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f4250eba000db12efcd430f91e068c8dcb40aa82ad1e8bc3942107c45c571c86"
+    },
+    {
+      "id": "cg_ginkgo_lauren_suki",
+      "file": "web/cg_ginkgo_lauren_suki.webp",
+      "sha256": "89a30ff40694c0f74bd65b3e6628ae57070f5092cf059ce5a250da5f648497b0",
+      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "39523cf4cbde51d23cec9f20f653fabae494db02c01ebec0c3e2a452c57c65dc"
+    },
+    {
+      "id": "cg_ginkgo_kanade_suki",
+      "file": "web/cg_ginkgo_kanade_suki.webp",
+      "sha256": "62eef2c6e1c9751011f94811a2161789a85b65b70a304c8f03c9d8fd3643561a",
+      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "a740d5bf855f25f50ca3403b10735017b693a788718b2d8ff2426c0b1049bb57"
+    },
+    {
+      "id": "cg_ginkgo_hyoma_suki",
+      "file": "web/cg_ginkgo_hyoma_suki.webp",
+      "sha256": "7df0af85e996a4b8bd40c2257fe359899a91f9ead8d11478617f970bba46d937",
+      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "33cfc8fdfa14b8c086a30ef426e3690760b35611d317728cfb9c8c70cff44696"
+    },
+    {
+      "id": "cg_toni_photo_male",
+      "file": "web/cg_toni_photo_male.webp",
+      "sha256": "47e2cc50beb574112bd06ad6828345403504bc53c1157230d693eaeece4f5d5b",
+      "prompt": "Edit only Toni, the short-haired student on the left beside the older student, replacing the female variant with the exact MALE Toni from reference image 2, in his school blazer, cardigan vest, tie and long uniform trousers. Keep the same shy peace-sign pose and short hairstyle. Preserve the athlete, the red-haired boy holding the camera at the right edge, the two-person photograph setup, sunset field and composition. Do not turn it into a selfie or add a third person standing in the photo. No new words or logos.",
+      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "generator": "built-in imagegen",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "a126f725df4866d7703944e8685da272248ccde88798e253560aa3078b09dad8"
+    }
+  ]
+}

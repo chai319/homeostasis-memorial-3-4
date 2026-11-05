@@ -1,0 +1,360 @@
+{
+  "generator": "built-in imagegen",
+  "assets": [
+    {
+      "id": "bg_class34",
+      "file": "web/bg_class34.webp",
+      "sha256": "bedf060f2754baf8ff627f6707e08de98e1d9a10b928e1b503c9c9ade59138af",
+      "status": "concept; 3-4 blackboard label to be overlaid in UI",
+      "prompt": "Use case: illustration-story. Create an original wide 16:9 visual novel background, a Japanese high-school classroom in spring morning light: clean wooden desks and chairs, windows, chalkboard, subtle orange and indigo accents, gentle nostalgic atmosphere. Leave the blackboard blank; no readable text, no people, no logos, no watermark. Composition must leave usable open central space for character portraits and a lower dialogue box. Original background art, soft cel-shaded painted anime style.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "142bc946beb77d70945021351d8dfbe65cd96e12897761128c579541b349d261"
+    },
+    {
+      "id": "bg_title",
+      "file": "web/bg_title.webp",
+      "sha256": "82668ccc4b2cefcd9a729734ff59b7ccb83e207064d5a4d263149e34e3ca883a",
+      "prompt": "Use case: illustration-story. Original wide 16:9 anime visual-novel title background: Japanese high school building at sunset, a large ginkgo tree with fresh spring-green leaves in the schoolyard, warm orange light against a rich indigo sky, nostalgic and inviting. No people, no lettering, no logos, no watermark. Compose with space for title text and start controls, painterly clean cel shading.",
+      "edit_prompt": "Edit only the large ginkgo tree foliage: change its yellow leaves to fresh spring green, keeping tree shape and leaf anatomy intact. Preserve sunset orange-indigo sky, school building, perspective, lighting, all other plants and the rest of the image exactly. No text, no people, no watermark.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "054123d8ba6f336dab5ca03255aebb7eb9be25d1d0e7f9bd9defd550fb70de0e"
+    },
+    {
+      "id": "bg_courtyard_stage",
+      "file": "web/bg_courtyard_stage.webp",
+      "sha256": "2ab57361d7c4f7e84e5a80c9dd2948e751fd44934a8ad7227e772a5f8899fff7",
+      "prompt": "Use case: illustration-story. Original wide 16:9 visual-novel background of a Japanese high school courtyard, with a small outdoor performance stage, one drum kit and amplifiers, benches and fresh spring trees, warm afternoon light. School-appropriate, no people, no logos, no readable text, no watermark. Compose with clear space for character portraits and a bottom dialogue box; polished soft cel-shaded painted animation style.",
+      "edit_prompt": "Remove the entire pink-and-white dialogue box and its small nameplate from the bottom; reconstruct the underlying courtyard paving, benches and shadows. Preserve the school, stage, drum kit, trees, sky, perspective and lighting. No people, text or watermark.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "d23e8a416d21afc79c6d6a3a98e20aa2ea219950ddf1f24459755d017fde5353"
+    },
+    {
+      "id": "bg_lake_center",
+      "file": "web/bg_lake_center.webp",
+      "sha256": "97416dd1d04822d8f5c07bba6bb89f12dee39cee877746f407f11311299022cc",
+      "prompt": "Use case: illustration-story. Original wide 16:9 visual novel background of a lakeside youth training center in Shiga, Japan in spring, a calm broad freshwater lake and distant green mountains, modest modern low-rise training-center building and a path with trees. Warm daylight, peaceful sense of anticipation, clean cel-shaded painted anime background. No people, no text, no logos, no UI, no watermark. Leave enough room for character sprites and dialogue overlay.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "6bf1a4c5e4963ffdca73bbfc48d76cd2403f51ef1c8b77ae3d58d20bbf7548a1"
+    },
+    {
+      "id": "bg_camp_kitchen",
+      "file": "web/bg_camp_kitchen.webp",
+      "sha256": "595f41be56d88d3d543848de8b1a8df63c73e0c15f421e7d58b3f97714e2afa6",
+      "prompt": "Use case: illustration-story. Original wide 16:9 anime visual-novel background of an outdoor camp cooking area beside a wide lake in Shiga, Japan. Stone stoves and long preparation tables beneath a simple open shelter, distant mountains, warm early evening light. No people, food brands, readable text, overlays, dialog boxes, UI or watermark. Clean cel-shaded painted environment, open space for character sprites.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "4ca6aae2fe23482967e5348d1fd4c3e7145542b0a1705feb14795ed76cfa2f53"
+    },
+    {
+      "id": "bg_camp_room_night",
+      "file": "web/bg_camp_room_night.webp",
+      "sha256": "da0542f7428e0efbf1be7b4352547f538776acadfba9e10d46e27dc5bf6e8dfe",
+      "prompt": "Use case: illustration-story. Original wide 16:9 anime visual-novel background: a cozy Japanese youth training center tatami room at night, several neatly laid-out futons, a warm lamp, a few study books on a low table, dark window showing a quiet lakeside evening. No people, no text, no logos, no dialog box, no UI, no watermark. Soft cel-shaded painted environment, composition suitable for character portraits.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "218737884a36b3723b095e76708d099161b51574f1cfc5a7848f61baa5476c8b"
+    },
+    {
+      "id": "bg_lake_sunrise",
+      "file": "web/bg_lake_sunrise.webp",
+      "sha256": "79244b58985ce43b196e742bdaf18fc4478fa928c6e140642303e4c10fad384f",
+      "prompt": "Use case: illustration-story. Original wide 16:9 anime visual-novel background, sunrise over a calm broad Japanese freshwater lake, golden reflections on still water, distant layered mountains, low pale morning mist and gentle dawn sky. Peaceful, hopeful. No people, buildings, text, logos, dialog boxes, UI or watermark. Soft cel-shaded painted environment suitable for character overlays.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "3d8e76512cb2c99d48ec3b3f19c99eb6113bb38edac5e3d86b200b6b6ab7d625"
+    },
+    {
+      "id": "bg_gate_spring",
+      "file": "web/bg_gate_spring.webp",
+      "sha256": "fc58a1f07e5b0015e81bc4ff10c515b6cf5f540eae587b1b9289d0a9547d200e",
+      "prompt": "Use case: illustration-story. Original wide 16:9 anime visual-novel background of a Japanese high school entrance gate in early spring, cherry blossoms overhead, a large ginkgo tree just budding green, gentle morning sunlight, school building visible beyond. No students or other people, no readable signs, no logos, no text, no UI, no dialog box, no watermark. Clean softly painted cel shading; open space for character overlays.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "311326b186fcf4997268c12965e00c2d3d006f56c184531587c4f0c8d503ea58"
+    },
+    {
+      "id": "bg_gym_checkup",
+      "file": "web/bg_gym_checkup.webp",
+      "sha256": "17b5e9822b963a3787ce1ad278b36a48b08b5bd0b37ae45a37b815746bf26933",
+      "prompt": "Use case: illustration-story. Original wide 16:9 anime visual-novel background of a Japanese high school gymnasium prepared for a student health checkup: polished wooden floor, high ceiling and windows, basketball hoop, simple privacy screens set to one side and a few empty chairs. Bright spring daylight, warm clean cel-shaded painted style. No people, no medical procedure, no readable text, no logos, no UI, no dialogue box, no watermark. Room for character sprites.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "67af427332d37bce7812cd8eb9f0c0c17dcaf32ea2473e27e895a3fd11744e88"
+    },
+    {
+      "id": "bg_science_room",
+      "file": "web/bg_science_room.webp",
+      "sha256": "de702b2530ea09a1700caf43cc0fce56dce190e2fe6228f8e776284c19dd698c",
+      "prompt": "Use case: illustration-story. Original wide 16:9 visual novel background of a Japanese high school science lab in spring daylight. Wooden lab tables with sinks, glassware, a microscope, organized cabinets and windows, chalkboard without writing. Warm clean cel-shaded painted anime environment. No people, no readable text, no labels, no logos, no interface, no watermark. Clear central space for character sprites.",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "574c4e782add1cafec3dbd22b8ec8fd63a2437d78fd48855ea28a1c9b8b67cbc"
+    },
+    {
+      "id": "overlay_class34",
+      "file": "overlay_class34.svg",
+      "sha256": "b40e09c72e27b6723cac129d8a9c2f13db5a80ca8d32a19880d9cc643f61d132",
+      "role": "overlay",
+      "generator": "hand-authored SVG"
+    },
+    {
+      "id": "overlay_booths",
+      "file": "overlay_booths.svg",
+      "sha256": "5aa05df8b2523c6a193c49f8e236ac34a37753844e93215a17ec6a9f6467ed02",
+      "role": "overlay",
+      "generator": "hand-authored SVG"
+    },
+    {
+      "id": "bg_ginkgo",
+      "file": "web/bg_ginkgo.webp",
+      "sha256": "2cde4e33b0cfc2b6d3609292cf5fb8cf1c4d41feab33b26513458af388bb6d57",
+      "prompt": "Original polished Japanese anime visual novel environment background. Wide 16:9 landscape composition, coherent realistic architectural perspective, soft painterly detail and warm restrained colors. A mature ginkgo tree beside a Japanese lakeside high school, soft late June sunset, intimate quiet bench and golden-green canopy. No people, no silhouettes, no lettering, no logos, no watermark. Keep the lower central area spacious for character sprites. Single finished background, not a collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "39323514471d2470bb2087d5e4f5e897c7452104d6c32beda2acc0a0080f4c18"
+    },
+    {
+      "id": "bg_class34_escape",
+      "file": "web/bg_class34_escape.webp",
+      "sha256": "1e74264cb6cfecc0ae0863baaf669bbb3136c7ddd7b858f92c1ffd7ab7a9986f",
+      "prompt": "Original polished Japanese anime visual novel environment background. Wide 16:9 landscape composition, coherent realistic architectural perspective, soft painterly detail and warm restrained colors. Japanese high school classroom converted into a school festival escape-game attraction, handmade cardboard tunnel representing the inside of the human body, colored sticky notes, tidy puzzle stations, warm light. No people, no silhouettes, no lettering, no logos, no watermark. Keep the lower central area spacious for character sprites. Single finished background, not a collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "865922b43ea6a199ba66f65ba121bb4fdfb566b49a8c51dcaae73a24469d283e"
+    },
+    {
+      "id": "bg_kindergarten",
+      "file": "web/bg_kindergarten.webp",
+      "sha256": "c690756b24f062249bb0c3750f88760fd479750f6520789187d112a14e954c32",
+      "prompt": "Original polished Japanese anime visual novel environment background. Wide 16:9 landscape composition, coherent realistic architectural perspective, soft painterly detail and warm restrained colors. A bright friendly Japanese kindergarten playroom, low shelves, colorful wooden toys, small round tables, soft morning light, no children present. No people, no silhouettes, no lettering, no logos, no watermark. Keep the lower central area spacious for character sprites. Single finished background, not a collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "67a814e5f334ad69d6bb3886907e354249b0089b64ec77cadac30685910edc05"
+    },
+    {
+      "id": "bg_university_gate",
+      "file": "web/bg_university_gate.webp",
+      "sha256": "b7fcabdd903a2fcda24fafe0105662ac72ba45cbda1e1f2a9395a10272c1d5ef",
+      "prompt": "Original polished Japanese anime visual novel environment background. Wide 16:9 landscape composition, coherent realistic architectural perspective, soft painterly detail and warm restrained colors. A Japanese university open campus entrance with modern science buildings behind a wide tree-lined walkway, summer morning light, no banners with readable text. No people, no silhouettes, no lettering, no logos, no watermark. Keep the lower central area spacious for character sprites. Single finished background, not a collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "d4c3b68b2010e672f06aff135a2d0c8c170df1fbaf0aa116a2fcdffaca49efd9"
+    },
+    {
+      "id": "v4_library",
+      "file": "web/v4_library.webp",
+      "sha256": "ad02e5119d5d881642278a21cd8ecf127199e2cb5e22d5b6e4644d654d867e16",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "9d830ad9a9b79c282b228df75500fe01d1a43cdcee1e56863f2608eafa68a117"
+    },
+    {
+      "id": "v4_infirmary",
+      "file": "web/v4_infirmary.webp",
+      "sha256": "55b2c53bd5f2bd11a34253a7269a27b77ef3fa9a492396cf91ce29e60af2b928",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f2d50082dc2b2e2f7d2fff72acbd7da17c2106a1a7e5def01584224d5e392a7d"
+    },
+    {
+      "id": "v4_gym",
+      "file": "web/v4_gym.webp",
+      "sha256": "e13bb92c97dd1777a647fd4b0222a51a24b5abe7ed1c8735ce61aa55ac5edd2a",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "0ac48944d612eff983b5e297ba4a64e2e51616eb3a144b8926397cb1963854bc"
+    },
+    {
+      "id": "v4_field",
+      "file": "web/v4_field.webp",
+      "sha256": "1669388cafec251be341c97762057d634fae042cbf45bcf9e2c83cdead843785",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "264b2e6fefb857706692bbe1924f4e4989a9a8e8f5615e767e99f925499bc6fd"
+    },
+    {
+      "id": "v4_cookroom",
+      "file": "web/v4_cookroom.webp",
+      "sha256": "5bf6bb8602d1da1fad52d9df268589239e77ca7b284b9862a4ff15b90630bdf9",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "16f839ed4e0c76346e78f24cf1524c486c16afde6bc63203c065d5f7e2927116"
+    },
+    {
+      "id": "v4_roof",
+      "file": "web/v4_roof.webp",
+      "sha256": "2df1a0e98cea362551840c055e15349811f3d2183effd9d69ee13c293d92c233",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "2033195c3331cc035d87bb55e00665e644c086ef333d7f338129eda760ac2062"
+    },
+    {
+      "id": "v4_staffroom",
+      "file": "web/v4_staffroom.webp",
+      "sha256": "e6aeb9851a00f6813718e5e2410300bfecb96231ba71b53ee455e2860cc7e0a5",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "46ab14e9ed181f488bba3036e6228253d5b11735c54c55e0a67f4b01c1aa926f"
+    },
+    {
+      "id": "v4_corridor",
+      "file": "web/v4_corridor.webp",
+      "sha256": "d202e539eedc251ddd3daffe9172e633a899cc32fccb45737ed5eddd95bdcd54",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "527bd622a07af69680c5e16334480e7a69befa22d2f3209bc5111fa9280c93f2"
+    },
+    {
+      "id": "v4_shoebox",
+      "file": "web/v4_shoebox.webp",
+      "sha256": "2dbff57a983c5a54048e89c1a33dfd4dbf5ad25f2a302fd14ae99a3459cff624",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "25f515a10f627c54a21d803dcba529b7282e36501164f183083bef913e48d862"
+    },
+    {
+      "id": "v4_stalls",
+      "file": "web/v4_stalls.webp",
+      "sha256": "143e71ce97f304e41970cf06c870cc0b6905323955eabcc9755698895441e65f",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "de57161388f640bbf97942f9342051a3fc02cbe71888e3fa70bd68e012a38ebe"
+    },
+    {
+      "id": "v4_myroom",
+      "file": "web/v4_myroom.webp",
+      "sha256": "e4b85fddb58c11a9400fbf8099a50f75c83c23607504c2af549edf934ff56c15",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "7139a6e462012e96c2d0471bc606a86f52ccb9739d2fa239cd2e979fe4bc814e"
+    },
+    {
+      "id": "v4_gate-sunset",
+      "file": "web/v4_gate-sunset.webp",
+      "sha256": "2041e7d1c5bf050b7f47b68dbdf09e28ba057014abf14ce630e9014421afdda6",
+      "reuse_permission": "CODEX_SPEC §8.2 backgrounds explicitly reusable",
+      "status": "copied unmodified",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "3c32231bd066158253c554a1561d8341c761f05f0d7a048c6fdffef2c1fed3b0"
+    },
+    {
+      "id": "bg_date_cycling",
+      "file": "web/bg_date_cycling.webp",
+      "sha256": "a8dde62af2ef532c02b2c3b75fa63112ffd4c37f33543547adc50890cd4ddf6d",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. A quiet Lake Biwa shoreline cycling path, parked bicycles at the edge, summer morning, wide lake and distant green mountains. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "f91337e26a73f2203bd56d2d1d2caba2ae32530ffac73f135fbc97f184ee9778"
+    },
+    {
+      "id": "bg_date_planetarium",
+      "file": "web/bg_date_planetarium.webp",
+      "sha256": "e48f93b11bf9c29218b55905ece23d711635192ff533046faec9ee36f8c41f8f",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. Interior of a Japanese planetarium, dim blue starry domed ceiling, empty reclining seats, calm romantic atmosphere. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "8b66a8a41ae4b408080a9a20d0071e7108b41bfe750c9604c4699b285c39799f"
+    },
+    {
+      "id": "bg_date_karaoke",
+      "file": "web/bg_date_karaoke.webp",
+      "sha256": "ea910f5cf41e34ebfeb2d20de337ea93f896eeba08354e1e014736a4c4a4e2b6",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. A clean cozy private Japanese karaoke room with upholstered seating, table and two microphones, glowing screen with no readable text. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "5460dc315bda9387b72b5f72925687b3d8e10dc7ea4855034f7c712806a1a67f"
+    },
+    {
+      "id": "bg_date_catcafe",
+      "file": "web/bg_date_catcafe.webp",
+      "sha256": "231f5d6b497d7eb329dbfbebf7c382f2fde17e369dbed0363e8caa83f78ef7f1",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. A sunlit cozy Japanese cat cafe with plants, soft cushions and three relaxed domestic cats, no people. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "7727d48629cef6f928244f39cc2521b9437baf37f1f24927652b68b6988bed92"
+    },
+    {
+      "id": "bg_date_usedbooks",
+      "file": "web/bg_date_usedbooks.webp",
+      "sha256": "201743dff47fa28420ea2a731e95f5893c8364b95f33e61696a7686c3f484b61",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. A warm Japanese used-book shop opening onto a tiny coffee corner, densely packed shelves, afternoon light, no readable book titles. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "2b552f14d2fa1b303f4340b8c079e64f420b529335d804cb58c59bce5b209ba7"
+    },
+    {
+      "id": "bg_date_basketball",
+      "file": "web/bg_date_basketball.webp",
+      "sha256": "f9349a5e124ca2ecb6308560817248362726ed5c3c94ede6c130d7b4081c24c9",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. Interior of a Japanese professional basketball arena before the match, polished court, hoop and colorful empty seats, lively lighting. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "44edcfeea855100c5d5e33191a92cd5f677235ae114db7f09118e4d796878f78"
+    },
+    {
+      "id": "bg_date_hotspring",
+      "file": "web/bg_date_hotspring.webp",
+      "sha256": "4fc539276b16a3a289a4fe0419a3e6438541df86d98f9f3c75e7eb97170991db",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. A Japanese hot spring town public footbath beside a narrow stone street, wooden benches, soft steam, summer green trees, no people. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "e5687d2a1d429a3516a01f64ef5923878a96c263e793720988cb452be2a842cd"
+    },
+    {
+      "id": "bg_date_ranch",
+      "file": "web/bg_date_ranch.webp",
+      "sha256": "76af186b4e369c5cd6166c356e27ff5d2a18be47dac0f370d89ec550c47ba0ad",
+      "prompt": "Original Japanese anime visual novel environment background, single wide 16:9 landscape image, coherent realistic perspective, polished painterly detail, soft warm light. A welcoming Japanese small petting farm with a goat enclosure and wooden fences, gentle countryside hills, bright June afternoon. Foreground space clear for character sprites. No humans, no silhouettes, no readable words, no logos, no watermark, no collage.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "9916260a5e7b3f9949cf860ce48de0adf1e9e15b6f9d102da20b2456176638c2"
+    },
+    {
+      "id": "bg_date_mizuho",
+      "file": "web/bg_date_mizuho.webp",
+      "sha256": "54790d5ea636af51df0ce052a484121caf49222146046095915039458e556d47",
+      "prompt": "Original polished Japanese anime visual novel environment background, single wide landscape 16:9 composition, coherent realistic perspective, soft painterly details. Interior of a small welcoming Japanese family diner called Mizuho, wooden counter and tables, warm evening light, clean kitchen pass and curtains, no readable signs. No people, no silhouettes, no readable text, no logos, no watermark. Clear lower foreground space for character sprites.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "bbd183679e57b5750dc4d229aff3d7653a22ebc879c7f7ed5981815c3a87ae01"
+    },
+    {
+      "id": "bg_ground_sports",
+      "file": "web/bg_ground_sports.webp",
+      "sha256": "2e09d03c71652159d255b7d48d456fecd2df6a15cb035184950043c9e2abf769",
+      "prompt": "Original polished Japanese anime visual novel environment background, single wide landscape 16:9 composition, coherent realistic perspective, soft painterly details. A Japanese high-school sports festival ground with running track, tented rest area, overhead colorful pennants and school buildings, bright June daylight. No people, no silhouettes, no readable text, no logos, no watermark. Clear lower foreground space for character sprites.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "59b647165555b7b99941ce480dd8309009cef3e076f2a59177766e6d5471ee84"
+    },
+    {
+      "id": "bg_ground_bonfire",
+      "file": "web/bg_ground_bonfire.webp",
+      "sha256": "6fba9947fa7b1f30f46a61d11a3950b90f4b5e0146a6a876081e14b1d195a27b",
+      "prompt": "Original polished Japanese anime visual novel environment background, single wide landscape 16:9 composition, coherent realistic perspective, soft painterly details. A Japanese high-school courtyard after sunset, safe supervised school festival bonfire inside a stone circle, distant warm classroom lights, empty dance circle, quiet starry sky. No people, no silhouettes, no readable text, no logos, no watermark. Clear lower foreground space for character sprites.",
+      "generator": "built-in imagegen",
+      "status": "contact sheet reviewed: scene identity, no people, no text, foreground space",
+      "encoding": "WebP q80, original pixel dimensions",
+      "master_sha256": "d0c30ca85abffd7a10f313a57b93c36e960d12d96e04d7848393f32504e90af5"
+    }
+  ]
+}
