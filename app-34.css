@@ -3,3 +3,6 @@
 .actor img{height:230%;width:auto;max-width:none;left:50%;transform:translateX(-50%);top:-3%;object-fit:initial}.portrait-choice img{height:100px;width:100%;object-fit:cover;object-position:50% 12%}.portrait-choice{display:flex;flex-direction:column;gap:8px}
 
 .atlas-frame{height:min(100%,512px);aspect-ratio:1;position:absolute;bottom:0;left:50%;transform:translateX(-50%);background-repeat:no-repeat;filter:brightness(.75)}.actor.active .atlas-frame{filter:none}
+
+/* Keep each complete expression cell and portrait within its own visible column. */
+.actor{flex:1 1 0;max-width:420px;overflow:visible}.atlas-frame{width:min(100%,420px,calc(100dvh * .48));height:auto;max-height:100%;aspect-ratio:1}.actor img{width:100%;height:100%;top:0;object-fit:contain;object-position:center bottom}.portrait-choice img{object-fit:contain;object-position:center top}

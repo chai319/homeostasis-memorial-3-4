@@ -1,6 +1,6 @@
 {
-  "generator": "tools/generate-bgm.py",
-  "license": "original synthesized audio for this project",
+  "generator": "tools/generate-bgm.py (original cues); 音楽の卵 takai (reused tracks)",
+  "license": "Per track: original synthesized audio or 音楽の卵 free BGM; see track entries",
   "interim_from_v4": false,
   "assets": [
     {
@@ -19,61 +19,45 @@
     },
     {
       "id": "morning",
-      "file": "mastered/morning.wav",
-      "sha256": "727553e91b9846900114b21a0b4c02a40bae1067738e12c7d069613cc628dab6",
-      "status": "level-matched original synthesized cue",
-      "bpm": 96,
-      "measurement": {
-        "rms_dbfs": -20.01,
-        "peak_dbfs": -7.9,
-        "gain": 1.4635,
-        "sample_rate": 44100
-      },
-      "master_sha256": "e2e7ee790160fd54e903afb648f9b35bf4b3c64a3c778d7a725083c224676ca6"
+      "file": "free_3_3/morning.mp3",
+      "sha256": "e5cb0b9bfd18b98c07ce04accbcbd3184f54314c4a1ee298c6cd28d1ec09cc35",
+      "status": "licensed free BGM reused from 3-3",
+      "title": "街の目覚め",
+      "artist": "takai / 音楽の卵",
+      "license_url": "https://ontama-m.com/ongaku.html",
+      "source_page": "https://ontama-m.com/"
     },
     {
       "id": "daily",
-      "file": "mastered/daily.wav",
-      "sha256": "8fd08fe078ae8982b78fc7c5812fc87f422908a7609d650515f37e20410d69f7",
-      "status": "level-matched original synthesized cue",
-      "bpm": 108,
-      "measurement": {
-        "rms_dbfs": -20.01,
-        "peak_dbfs": -8.27,
-        "gain": 1.4331,
-        "sample_rate": 44100
-      },
-      "master_sha256": "6d8ad3e1e2a370cd156446c70c8cbe9c17eb56294ada0e75a663bcd68f835d79"
+      "file": "free_3_3/daily.mp3",
+      "sha256": "9cc1a422b7ff6a41be2ec8424bf2f87526d98a1e8bc791dcc1a68a7d05b5032a",
+      "status": "licensed free BGM reused from 3-3",
+      "title": "軽い足どりで",
+      "artist": "takai / 音楽の卵",
+      "license_url": "https://ontama-m.com/ongaku.html",
+      "source_page": "https://ontama-m.com/"
     },
     {
       "id": "evening_class",
-      "file": "mastered/evening_class.wav",
-      "sha256": "838efe858cf218f13f1a0a69622708767bee7c4ad0a94ee81c89332280a2f28a",
-      "status": "level-matched original synthesized cue",
-      "bpm": 78,
+      "file": "free_3_3/evening.mp3",
+      "sha256": "dfb4bfd9ee2c6ad921de9aae725bc80d7af413c4ebbcaa24b5aaf5f4e1332eba",
+      "status": "licensed free BGM reused from 3-3",
       "generator": "tools/generate-bgm-more.py",
-      "measurement": {
-        "rms_dbfs": -20.01,
-        "peak_dbfs": -7.56,
-        "gain": 1.6739,
-        "sample_rate": 44100
-      },
-      "master_sha256": "65c3c9a93cf00b1a16669de4365ebdeb9b038b8d10148e4737257312c365a529"
+      "title": "黄昏時",
+      "artist": "takai / 音楽の卵",
+      "license_url": "https://ontama-m.com/ongaku.html",
+      "source_page": "https://ontama-m.com/"
     },
     {
       "id": "gate_walk",
-      "file": "mastered/gate_walk.wav",
-      "sha256": "54e316b54d1b6eb59d0a505271aaac5ac6b27a20c55ed4af07d9654854e03c20",
-      "status": "level-matched original synthesized cue",
-      "bpm": 92,
+      "file": "free_3_3/evening.mp3",
+      "sha256": "dfb4bfd9ee2c6ad921de9aae725bc80d7af413c4ebbcaa24b5aaf5f4e1332eba",
+      "status": "licensed free BGM reused from 3-3",
       "generator": "tools/generate-bgm-more.py",
-      "measurement": {
-        "rms_dbfs": -20.01,
-        "peak_dbfs": -7.74,
-        "gain": 1.6099,
-        "sample_rate": 44100
-      },
-      "master_sha256": "b9dfb1598cfbb1fb683d5abaa6c23a6584c66301bbacfcf818ed87dfa6ba81e9"
+      "title": "黄昏時",
+      "artist": "takai / 音楽の卵",
+      "license_url": "https://ontama-m.com/ongaku.html",
+      "source_page": "https://ontama-m.com/"
     },
     {
       "id": "event",
@@ -92,18 +76,14 @@
     },
     {
       "id": "room",
-      "file": "mastered/room.wav",
-      "sha256": "10dc8df8029148142d600c13707e3cb4b933921ef15f6012981f5536cc2e25ef",
-      "status": "level-matched original synthesized cue",
-      "bpm": 72,
+      "file": "free_3_3/room.mp3",
+      "sha256": "7b2b64b6eac3027d1745f419c6b2779ede07a3d9cbf2883258cd07cf4680674b",
+      "status": "licensed free BGM reused from 3-3",
       "generator": "tools/generate-bgm-more.py",
-      "measurement": {
-        "rms_dbfs": -20.01,
-        "peak_dbfs": -7.26,
-        "gain": 1.6654,
-        "sample_rate": 44100
-      },
-      "master_sha256": "df6c584997354e2235259887987e818335cd86bbdd5921cdb494e1f5fa4e57c3"
+      "title": "ナチュラルルーム",
+      "artist": "takai / 音楽の卵",
+      "license_url": "https://ontama-m.com/ongaku.html",
+      "source_page": "https://ontama-m.com/"
     },
     {
       "id": "rainy",
