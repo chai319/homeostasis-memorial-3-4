@@ -7,14 +7,14 @@ function cells(game,char){
  const trio=Array.from({length:2},(_,i)=>({kind:'trio',id:`tw_${char}_${i+1}`}));
  const birthdayRule=game.R.gifts.birthday_scenes[char]||'',match=birthdayRule.match(/(?:^|\s)((?:ev|bd)_[A-Za-z0-9_]+)/);
  const birthday={kind:'birthday',id:match?match[1]:`bd_${char}`,day:game.R.gifts.birthdays[char]};
- const all=[...personal,...talk,...trio,birthday];let nextFound=false;
+ const all=[...personal,...talk,...trio,birthday];const nextFound=new Set();
  return all.map(cell=>{
   const scene=game.S[cell.id],seen=!!game.seen['scene:'+cell.id];let status,hintKey=null;
   if(seen)status='seen';
   else if(!scene)status='unavailable';
   else if(cell.day&&game.R.calendar.findIndex(r=>r[0]===game.day)>game.R.calendar.findIndex(r=>r[0]===cell.day)&&game.R.calendar.some(r=>r[0]===cell.day))status='expired';
   else if(scene.need&&!game.cond(scene.need,char)){status='locked';hintKey=scene.need.some(c=>c[0]==='ident')?'relmap_hint_ident':'relmap_hint_friend';}
-  else if(!nextFound){status='next';nextFound=true;}else status='pending';
+  else if(!nextFound.has(cell.kind)){status='next';nextFound.add(cell.kind);}else status='pending';
   return {...cell,status,hintKey};
  });
 }

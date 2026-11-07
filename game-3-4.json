@@ -13,7 +13,7 @@
     "friend": "toni",
     "mentor": "eguchi",
     "author": "原案・脚本案：エモ／データ化・補完：モン（先生承認 2026-11-05）",
-    "build_id": "2faa4d37f8232fa7"
+    "build_id": "74e7b9d3fc376249"
   },
   "rules": {
     "stats": {
@@ -3524,7 +3524,7 @@
               "response": []
             },
             {
-              "text": "「おめでとう」とだけ",
+              "text": "「おめでとう」とだけ（E18 6/12（金）謎づくり会議（シトの誕生日）・E18 6/12（金）謎づくり会議（シトの誕生日））",
               "effects": {
                 "shito_f": 3
               },
@@ -6656,7 +6656,7 @@
           "prompt": "まず、これから学びたいことを聞かせて。",
           "options": [
             {
-              "text": "勉強",
+              "text": "もっと学びたい分野を話す。",
               "effects": {
                 "eguchi_f": 27,
                 "eguchi_u": 1
@@ -6670,7 +6670,7 @@
               ]
             },
             {
-              "text": "体",
+              "text": "体について知りたいことを話す。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6683,7 +6683,7 @@
               ]
             },
             {
-              "text": "将来",
+              "text": "将来に必要な学びを考える。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6696,7 +6696,7 @@
               ]
             },
             {
-              "text": "人",
+              "text": "誰かと学びたいことを話す。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6714,7 +6714,7 @@
           "prompt": "がんばる前に、確かめておくことは？",
           "options": [
             {
-              "text": "勉強",
+              "text": "勉強の進み具合を確かめる。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6727,7 +6727,7 @@
               ]
             },
             {
-              "text": "体",
+              "text": "自分の体調を確かめる。",
               "effects": {
                 "eguchi_f": 27,
                 "eguchi_u": 1
@@ -6741,7 +6741,7 @@
               ]
             },
             {
-              "text": "将来",
+              "text": "将来の予定を確かめる。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6754,7 +6754,7 @@
               ]
             },
             {
-              "text": "人",
+              "text": "周りの人の様子を確かめる。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6772,7 +6772,7 @@
           "prompt": "最後に。自分で選びたいのは、どんなこと？",
           "options": [
             {
-              "text": "勉強",
+              "text": "今日の勉強方法を自分で選ぶ。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6785,7 +6785,7 @@
               ]
             },
             {
-              "text": "体",
+              "text": "体を休める時間を自分で選ぶ。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6798,7 +6798,7 @@
               ]
             },
             {
-              "text": "将来",
+              "text": "自分の進む道を選ぶ。",
               "effects": {
                 "eguchi_f": 27,
                 "eguchi_u": 1
@@ -6812,7 +6812,7 @@
               ]
             },
             {
-              "text": "人",
+              "text": "一緒に相談する人を選ぶ。",
               "effects": {
                 "eguchi_f": 9
               },
@@ -6857,6 +6857,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "机の上に、編みかけの小さなブローチが置かれている。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "「ハートの形、なんでだと思う？」",
           "expr": "neutral"
@@ -6881,14 +6886,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「編み物のブローチ」について、もう少し教えて。",
               "effects": {
                 "shion_f": 1
               },
               "response": [
                 {
                   "who": "shion",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
                   "expr": "neutral"
                 }
               ]
@@ -6896,21 +6901,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「編み物のブローチ」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "次はどんな形を編みたいか尋ねる。",
               "effects": {
                 "shion_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "ブローチを大事にするね、と伝える。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "こちらこそ、聞いてくれてありがとう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -6938,6 +6955,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "応援の声が響き、志音は少しだけ肩をすくめた。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "大声の前で、どこに立つ？",
           "expr": "neutral"
@@ -6962,14 +6984,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「応援団長が苦手」について、もう少し教えて。",
               "effects": {
                 "shion_f": 1
               },
               "response": [
                 {
                   "who": "shion",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
                   "expr": "neutral"
                 }
               ]
@@ -6977,21 +6999,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「応援団長が苦手」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "応援の聞こえ方を一緒に考える。",
               "effects": {
                 "shion_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "勇気を出して話したことにお礼を言う。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "こちらこそ、聞いてくれてありがとう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7019,6 +7053,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "志音は膝の上で、子どもの背中をたたく仕草をした。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "寝かしつけで効くのは？",
           "expr": "neutral"
@@ -7043,14 +7082,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「妹の寝かしつけ」について、もう少し教えて。",
               "effects": {
                 "shion_f": 1
               },
               "response": [
                 {
                   "who": "shion",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
                   "expr": "neutral"
                 }
               ]
@@ -7058,21 +7097,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「妹の寝かしつけ」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "子どもが安心する音を一緒に考える。",
               "effects": {
                 "shion_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "妹を大切にする姿が素敵だと伝える。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "こちらこそ、聞いてくれてありがとう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7106,6 +7157,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "保健室の扉の前に、小さな上履きがそろえてある。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "何度も来る子にかける言葉",
           "expr": "neutral"
@@ -7130,14 +7186,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「保健室の常連」について、もう少し教えて。",
               "effects": {
                 "shion_f": 1
               },
               "response": [
                 {
                   "who": "shion",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
                   "expr": "neutral"
                 }
               ]
@@ -7145,21 +7201,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「保健室の常連」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "安心できる保健室の工夫を聞く。",
               "effects": {
                 "shion_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "いつも迎えてくれる志音に感謝する。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "こちらこそ、聞いてくれてありがとう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7193,6 +7261,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "志音は相手の表情を見て、一歩だけ近づいた。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "落ちこんだ友だちに、まずすること",
           "expr": "neutral"
@@ -7217,14 +7290,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「ハグの日」について、もう少し教えて。",
               "effects": {
                 "shion_f": 1
               },
               "response": [
                 {
                   "who": "shion",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
                   "expr": "neutral"
                 }
               ]
@@ -7232,21 +7305,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「ハグの日」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "隣に座って、落ち着くまで待とうと提案する。",
               "effects": {
                 "shion_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "相手を思いやる志音の気持ちを伝える。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "こちらこそ、聞いてくれてありがとう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7280,6 +7365,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "志音の手帳には、二つの見学先が並んでいる。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "迷う志音に",
           "expr": "neutral"
@@ -7304,14 +7394,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「将来の夢」について、もう少し教えて。",
               "effects": {
                 "shion_f": 1
               },
               "response": [
                 {
                   "who": "shion",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
                   "expr": "neutral"
                 }
               ]
@@ -7319,21 +7409,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「将来の夢」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "二つの見学先の予定を一緒に調べる。",
               "effects": {
                 "shion_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "夢を話してくれたことに感謝する。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "こちらこそ、聞いてくれてありがとう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7367,6 +7469,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "図書室の机には、同じ位置に参考書とノートが並ぶ。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "シトの勉強法は？",
           "expr": "neutral"
@@ -7391,14 +7498,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「学年1位の勉強法」について、もう少し教えて。",
               "effects": {
                 "shito_f": 1
               },
               "response": [
                 {
                   "who": "shito",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
                   "expr": "neutral"
                 }
               ]
@@ -7406,21 +7513,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「学年1位の勉強法」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "図書室での過ごし方をもう少し聞く。",
               "effects": {
                 "shito_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "落ち着く勉強のコツを教わったと伝える。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……覚えていてくれたら、うれしい。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7448,6 +7567,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "シトは窓の外の志音を見てから、本を閉じた。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "志音とシトの違い",
           "expr": "neutral"
@@ -7472,14 +7596,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「志音といとこ」について、もう少し教えて。",
               "effects": {
                 "shito_f": 1
               },
               "response": [
                 {
                   "who": "shito",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
                   "expr": "neutral"
                 }
               ]
@@ -7487,21 +7611,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「志音といとこ」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "志音と過ごした昔の話を聞く。",
               "effects": {
                 "shito_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "いとこ同士の違いを話してくれて感謝する。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……覚えていてくれたら、うれしい。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7529,6 +7665,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "本棚の向こうで、探しものをしている生徒がいた。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "シトが図書室で見ているもの",
           "expr": "neutral"
@@ -7553,14 +7694,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「離れ目の視野」について、もう少し教えて。",
               "effects": {
                 "shito_f": 1
               },
               "response": [
                 {
                   "who": "shito",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
                   "expr": "neutral"
                 }
               ]
@@ -7568,21 +7709,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「離れ目の視野」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "本棚の向こうへ一緒に行ってみる。",
               "effects": {
                 "shito_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "気づかいを見せてくれたシトに礼を言う。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……覚えていてくれたら、うれしい。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7616,6 +7769,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "シトは切りそろえた野菜を、まな板の端に並べる。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "同じ厚さに切る理由",
           "expr": "neutral"
@@ -7640,14 +7798,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「野菜の厚さ」について、もう少し教えて。",
               "effects": {
                 "shito_f": 1
               },
               "response": [
                 {
                   "who": "shito",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
                   "expr": "neutral"
                 }
               ]
@@ -7655,21 +7813,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「野菜の厚さ」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "次は自分も同じ厚さで切ってみる。",
               "effects": {
                 "shito_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "料理の小さな工夫を教えてもらったと伝える。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……覚えていてくれたら、うれしい。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7703,6 +7873,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "シトは真顔のまま、一拍遅れて目をそらした。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "冗談に気づいたとき",
           "expr": "neutral"
@@ -7713,7 +7888,7 @@
           "prompt": "冗談に気づいたとき ",
           "options": [
             {
-              "text": "笑う",
+              "text": "笑う（沖 シト・真顔の冗談）",
               "effects": {
                 "shito_f": 3,
                 "shito_u": 1
@@ -7727,14 +7902,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「真顔の冗談」について、もう少し教えて。",
               "effects": {
                 "shito_f": 1
               },
               "response": [
                 {
                   "who": "shito",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
                   "expr": "neutral"
                 }
               ]
@@ -7742,21 +7917,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「真顔の冗談」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "今度は自分も冗談を返してみる。",
               "effects": {
                 "shito_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "笑わせてくれたシトに礼を言う。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……覚えていてくれたら、うれしい。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7790,6 +7977,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "貸出カードに、病院の名前が書かれていた。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "一人でいる子に、隣に置くなら",
           "expr": "neutral"
@@ -7814,14 +8006,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「病院の一冊」について、もう少し教えて。",
               "effects": {
                 "shito_f": 1
               },
               "response": [
                 {
                   "who": "shito",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
                   "expr": "neutral"
                 }
               ]
@@ -7829,21 +8021,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「病院の一冊」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "その本の好きな場面を聞く。",
               "effects": {
                 "shito_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "大事な本を見せてもらったと伝える。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……覚えていてくれたら、うれしい。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7877,6 +8081,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "窓の外の風に、朕が制服の襟を引き寄せる。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "寒い町で体を温める方法",
           "expr": "neutral"
@@ -7901,14 +8110,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「海の町の冬」について、もう少し教えて。",
               "effects": {
                 "chin_f": 1
               },
               "response": [
                 {
                   "who": "chin",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
                   "expr": "neutral"
                 }
               ]
@@ -7916,21 +8125,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「海の町の冬」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "温かく過ごす冬の工夫を話し合う。",
               "effects": {
                 "chin_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "海辺の思い出を聞かせてもらったと伝える。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "そなたが聞いてくれて、よかったのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -7958,6 +8179,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "朕は昆布の包みを、宝物のように机に置いた。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "昆布が朕に効く理由",
           "expr": "neutral"
@@ -7982,14 +8208,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「昆布の効能」について、もう少し教えて。",
               "effects": {
                 "chin_f": 1
               },
               "response": [
                 {
                   "who": "chin",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
                   "expr": "neutral"
                 }
               ]
@@ -7997,21 +8223,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「昆布の効能」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "昆布を使った好きな料理を尋ねる。",
               "effects": {
                 "chin_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "体を温める材料の話に礼を言う。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "そなたが聞いてくれて、よかったのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8039,6 +8277,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "水槽の中で、小さな影がゆっくり泳いでいる。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "足が生える前に要るもの",
           "expr": "neutral"
@@ -8063,14 +8306,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「オタマジャクシの飼育」について、もう少し教えて。",
               "effects": {
                 "chin_f": 1
               },
               "response": [
                 {
                   "who": "chin",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
                   "expr": "neutral"
                 }
               ]
@@ -8078,21 +8321,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「オタマジャクシの飼育」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "水槽の生き物を一緒に観察する。",
               "effects": {
                 "chin_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "成長を見守る朕の話に感謝する。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "そなたが聞いてくれて、よかったのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8126,6 +8381,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "朕は昔の舞台の写真を、少し照れくさそうに見せた。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "劇の皇帝で大事なのは",
           "expr": "neutral"
@@ -8150,14 +8410,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「朕という一人称」について、もう少し教えて。",
               "effects": {
                 "chin_f": 1
               },
               "response": [
                 {
                   "who": "chin",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
                   "expr": "neutral"
                 }
               ]
@@ -8165,21 +8425,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「朕という一人称」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "舞台で緊張したときの話を聞く。",
               "effects": {
                 "chin_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "皇帝役の思い出を話してくれたと伝える。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "そなたが聞いてくれて、よかったのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8213,6 +8485,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "机をたたく指先が、少しずつ速くなっている。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "速すぎるビートを戻すには",
           "expr": "neutral"
@@ -8237,14 +8514,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「ドラムのテンポ」について、もう少し教えて。",
               "effects": {
                 "chin_f": 1
               },
               "response": [
                 {
                   "who": "chin",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
                   "expr": "neutral"
                 }
               ]
@@ -8252,21 +8529,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「ドラムのテンポ」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "机をたたき、一緒にゆっくり拍を取る。",
               "effects": {
                 "chin_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "朕のビートを聞かせてもらったと伝える。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "そなたが聞いてくれて、よかったのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8300,6 +8589,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "ヨウ子とトウ子の声が、廊下の向こうから聞こえた。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "二人に伝えたいこと",
           "expr": "neutral"
@@ -8324,14 +8618,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「ヨウ子とトウ子」について、もう少し教えて。",
               "effects": {
                 "chin_f": 1
               },
               "response": [
                 {
                   "who": "chin",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
                   "expr": "neutral"
                 }
               ]
@@ -8339,21 +8633,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「ヨウ子とトウ子」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "三人で過ごした思い出を聞いてみる。",
               "effects": {
                 "chin_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "二人を大事にする朕の気持ちに礼を言う。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "そなたが聞いてくれて、よかったのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8387,6 +8693,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "ローレンの机に、新作のお菓子が並んでいる。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "新作に弱い理由",
           "expr": "neutral"
@@ -8411,14 +8722,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「新作チェック」について、もう少し教えて。",
               "effects": {
                 "lauren_f": 1
               },
               "response": [
                 {
                   "who": "lauren",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
                   "expr": "neutral"
                 }
               ]
@@ -8426,21 +8737,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「新作チェック」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "次に試す新作を一緒に選ぶ。",
               "effects": {
                 "lauren_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "面白い発見を分けてくれたと伝える。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "おう！ 次はお前の話も聞かせてくれ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8468,6 +8791,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "窓から朝の光が差し、とにが二人に手を振った。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "とにの朝の一言がある日は？",
           "expr": "neutral"
@@ -8492,14 +8820,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「とにとの腐れ縁」について、もう少し教えて。",
               "effects": {
                 "lauren_f": 1
               },
               "response": [
                 {
                   "who": "lauren",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
                   "expr": "neutral"
                 }
               ]
@@ -8507,21 +8835,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「とにとの腐れ縁」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "とにとの昔の遊びを尋ねる。",
               "effects": {
                 "lauren_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "朝の習慣の話をしてくれたと伝える。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "おう！ 次はお前の話も聞かせてくれ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8549,6 +8889,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "ローレンは眠そうにあくびをして、画面を伏せた。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "夜ふかしの翌朝は",
           "expr": "neutral"
@@ -8573,14 +8918,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「動画の夜ふかし」について、もう少し教えて。",
               "effects": {
                 "lauren_f": 1
               },
               "response": [
                 {
                   "who": "lauren",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
                   "expr": "neutral"
                 }
               ]
@@ -8588,21 +8933,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「動画の夜ふかし」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "今夜は何時に眠るか一緒に決める。",
               "effects": {
                 "lauren_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "夜ふかしの話を正直にしてくれたと伝える。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "おう！ 次はお前の話も聞かせてくれ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8636,6 +8993,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "練習ノートには、消して書き直した跡が残っていた。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "練習メニューを決めるコツ",
           "expr": "neutral"
@@ -8660,14 +9022,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「キャプテンの重圧」について、もう少し教えて。",
               "effects": {
                 "lauren_f": 1
               },
               "response": [
                 {
                   "who": "lauren",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
                   "expr": "neutral"
                 }
               ]
@@ -8675,21 +9037,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「キャプテンの重圧」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "明日の小さな目標を一緒に決める。",
               "effects": {
                 "lauren_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "キャプテンの悩みを聞かせてくれたと伝える。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "おう！ 次はお前の話も聞かせてくれ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8723,6 +9097,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "眼鏡をかけたローレンは、いつもより小さな声だった。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "メガネをかけた日にしてほしいこと",
           "expr": "neutral"
@@ -8747,14 +9126,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「メガネの理由」について、もう少し教えて。",
               "effects": {
                 "lauren_f": 1
               },
               "response": [
                 {
                   "who": "lauren",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
                   "expr": "neutral"
                 }
               ]
@@ -8762,21 +9141,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「メガネの理由」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "眼鏡の日もいつもどおり話しかける。",
               "effects": {
                 "lauren_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "照れながら話してくれたことに礼を言う。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "おう！ 次はお前の話も聞かせてくれ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8810,6 +9201,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "体育館のカレンダーに、最後の大会の日が丸で囲まれていた。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "引退後にやりたいこと",
           "expr": "neutral"
@@ -8834,14 +9230,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「最後の夏」について、もう少し教えて。",
               "effects": {
                 "lauren_f": 1
               },
               "response": [
                 {
                   "who": "lauren",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
                   "expr": "neutral"
                 }
               ]
@@ -8849,21 +9245,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「最後の夏」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "引退後に二人でできることを考える。",
               "effects": {
                 "lauren_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "最後の夏の気持ちを話してくれたと伝える。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "おう！ 次はお前の話も聞かせてくれ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8897,6 +9305,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "窓際で、奏の銀色の髪が光を受ける。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "色の話より",
           "expr": "neutral"
@@ -8921,14 +9334,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「銀髪」について、もう少し教えて。",
               "effects": {
                 "kanade_f": 1
               },
               "response": [
                 {
                   "who": "kanade",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
                   "expr": "neutral"
                 }
               ]
@@ -8936,21 +9349,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「銀髪」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "銀髪の手入れについて聞いてみる。",
               "effects": {
                 "kanade_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "見た目の話に付き合ってくれたと伝える。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。また、ゆっくり話そう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -8978,6 +9403,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "奏は注文票を見ずに、常連客の好みを言い当てた。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "2回目の客にすぐ出せる理由",
           "expr": "neutral"
@@ -9002,14 +9432,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「常連の注文」について、もう少し教えて。",
               "effects": {
                 "kanade_f": 1
               },
               "response": [
                 {
                   "who": "kanade",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
                   "expr": "neutral"
                 }
               ]
@@ -9017,21 +9447,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「常連の注文」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "次に覚えたい客の話を聞く。",
               "effects": {
                 "kanade_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "人を覚える優しさに感謝する。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。また、ゆっくり話そう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9059,6 +9501,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "奏の鞄から、先輩と写った部活の写真がのぞく。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "先輩と奏の違い",
           "expr": "neutral"
@@ -9083,14 +9530,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「キラー先輩」について、もう少し教えて。",
               "effects": {
                 "kanade_f": 1
               },
               "response": [
                 {
                   "who": "kanade",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
                   "expr": "neutral"
                 }
               ]
@@ -9098,21 +9545,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「キラー先輩」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "先輩と奏のそれぞれの役割を整理する。",
               "effects": {
                 "kanade_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "守る仕組みを説明してくれたと伝える。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。また、ゆっくり話そう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9146,6 +9605,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "猫の写真を見た奏が、くしゃみをこらえて笑った。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "猫カフェに誘われたら",
           "expr": "neutral"
@@ -9170,14 +9634,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「猫アレルギー」について、もう少し教えて。",
               "effects": {
                 "kanade_f": 1
               },
               "response": [
                 {
                   "who": "kanade",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
                   "expr": "neutral"
                 }
               ]
@@ -9185,21 +9649,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「猫アレルギー」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "猫のいない行き先を一緒に探す。",
               "effects": {
                 "kanade_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "苦手なことを話してくれたと伝える。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。また、ゆっくり話そう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9233,6 +9709,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "奏は額に手を当て、体の熱について考えている。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "風邪で熱が出るのは",
           "expr": "neutral"
@@ -9257,14 +9738,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「熱が出る理由」について、もう少し教えて。",
               "effects": {
                 "kanade_f": 1
               },
               "response": [
                 {
                   "who": "kanade",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
                   "expr": "neutral"
                 }
               ]
@@ -9272,21 +9753,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「熱が出る理由」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "熱が出たとき休める場所を考える。",
               "effects": {
                 "kanade_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "体が働く仕組みを教わったと伝える。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。また、ゆっくり話そう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9320,6 +9813,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "竹刀袋の紐を結び直し、奏が姿勢を正した。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "剣道で一番大事なのは",
           "expr": "neutral"
@@ -9344,14 +9842,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「剣道を続ける理由」について、もう少し教えて。",
               "effects": {
                 "kanade_f": 1
               },
               "response": [
                 {
                   "who": "kanade",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
                   "expr": "neutral"
                 }
               ]
@@ -9359,21 +9857,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「剣道を続ける理由」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "竹刀を構えるときの気持ちを聞く。",
               "effects": {
                 "kanade_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "剣道を続ける理由を話してくれたと伝える。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。また、ゆっくり話そう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9407,6 +9917,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "まだ人の少ない教室に、朝日が差し込んでいる。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "朝いちばんに体が起きる理由",
           "expr": "neutral"
@@ -9431,14 +9946,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「朝型」について、もう少し教えて。",
               "effects": {
                 "hyoma_f": 1
               },
               "response": [
                 {
                   "who": "hyoma",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "わからないままにしない。それは大切だ。",
                   "expr": "neutral"
                 }
               ]
@@ -9446,21 +9961,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「朝型」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "朝の光が入る席で少し話す。",
               "effects": {
                 "hyoma_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "早起きの習慣を教えてくれたと伝える。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "話せてよかった。次は君の話も聞こう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9488,6 +10015,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "黒板の前で、彪馬は二人の言い分を順に聞いていた。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "けんかを静めるコツ",
           "expr": "neutral"
@@ -9512,14 +10044,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「学級委員の仕事」について、もう少し教えて。",
               "effects": {
                 "hyoma_f": 1
               },
               "response": [
                 {
                   "who": "hyoma",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "わからないままにしない。それは大切だ。",
                   "expr": "neutral"
                 }
               ]
@@ -9527,21 +10059,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「学級委員の仕事」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "黒板に二人の言い分を整理する。",
               "effects": {
                 "hyoma_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "委員の仕事を見せてくれたと伝える。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "話せてよかった。次は君の話も聞こう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9569,6 +10113,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "昼休み、彪馬の机には参考書だけが開かれている。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "食べずに動けるとき、体は何を使う",
           "expr": "neutral"
@@ -9593,14 +10142,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「食事を抜く」について、もう少し教えて。",
               "effects": {
                 "hyoma_f": 1
               },
               "response": [
                 {
                   "who": "hyoma",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "わからないままにしない。それは大切だ。",
                   "expr": "neutral"
                 }
               ]
@@ -9608,21 +10157,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「食事を抜く」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "一緒に食事をとる時間を考える。",
               "effects": {
                 "hyoma_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "体と食事の関係を話してくれたと伝える。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "話せてよかった。次は君の話も聞こう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9656,6 +10217,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "進路資料の端に、小さな動物の写真が挟んであった。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "動物の病気を治したい理由",
           "expr": "neutral"
@@ -9680,14 +10246,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「獣医学部」について、もう少し教えて。",
               "effects": {
                 "hyoma_f": 1
               },
               "response": [
                 {
                   "who": "hyoma",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "わからないままにしない。それは大切だ。",
                   "expr": "neutral"
                 }
               ]
@@ -9695,21 +10261,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「獣医学部」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "動物の写真について質問する。",
               "effects": {
                 "hyoma_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "獣医を目指す理由を話してくれたと伝える。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "話せてよかった。次は君の話も聞こう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9743,6 +10321,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "カラオケの履歴を見て、彪馬が慌てて画面を伏せた。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "彪馬の十八番",
           "expr": "neutral"
@@ -9767,14 +10350,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「カラオケ」について、もう少し教えて。",
               "effects": {
                 "hyoma_f": 1
               },
               "response": [
                 {
                   "who": "hyoma",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "わからないままにしない。それは大切だ。",
                   "expr": "neutral"
                 }
               ]
@@ -9782,21 +10365,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「カラオケ」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "次のカラオケで一曲お願いする。",
               "effects": {
                 "hyoma_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "意外な十八番を教えてくれたと伝える。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "話せてよかった。次は君の話も聞こう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9830,6 +10425,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "奏の名前が出ると、彪馬は少しだけ言葉を探した。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "奏に謝りたいこと",
           "expr": "neutral"
@@ -9854,14 +10454,14 @@
               ]
             },
             {
-              "text": "まだよくわからない。もう少し聞かせて。",
+              "text": "「奏との中学時代」について、もう少し教えて。",
               "effects": {
                 "hyoma_f": 1
               },
               "response": [
                 {
                   "who": "hyoma",
-                  "text": "じゃあ、いっしょに、もう少し考えよう。",
+                  "text": "わからないままにしない。それは大切だ。",
                   "expr": "neutral"
                 }
               ]
@@ -9869,21 +10469,33 @@
           ]
         },
         {
-          "prompt": "話し終えたあと、どうする？",
+          "prompt": "「奏との中学時代」を話し終えて、どうする？",
           "options": [
             {
-              "text": "もう少し、隣で過ごす。",
+              "text": "奏と話すきっかけを一緒に考える。",
               "effects": {
                 "hyoma_t": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "話してくれてありがとう、と伝える。",
+              "text": "中学時代の話をしてくれたと伝える。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "話せてよかった。次は君の話も聞こう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -9917,8 +10529,23 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "toni",
           "text": "志音って、誰といても、相手の歩く速さに合わせるよね",
+          "expr": "neutral"
+        },
+        {
+          "who": "shion",
+          "text": "急いでいないなら、三人で同じ速さにしよう？",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -9945,8 +10572,23 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "toni",
           "text": "中学のとき、うちが泣いてたら、志音が黙って手を握ってくれたの",
+          "expr": "neutral"
+        },
+        {
+          "who": "shion",
+          "text": "あのとき私も、誰かと一緒で安心したんだ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -9974,7 +10616,22 @@
       "lines": [
         {
           "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
           "text": "シトがとにの話を全部覚えていて、とにが驚く。🔎シトは主人公と目が合うと一拍おいてそらす",
+          "expr": "neutral"
+        },
+        {
+          "who": "shito",
+          "text": "……話を聞いていたら、自然と覚えた。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10001,6 +10658,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "toni",
           "text": "沖くん、志音と同じ電車なのに、別の車両に乗るんだって",
           "expr": "neutral"
@@ -10008,6 +10670,16 @@
         {
           "who": "shito",
           "text": "……近すぎると、言えなくなるから",
+          "expr": "neutral"
+        },
+        {
+          "who": "shito",
+          "text": "志音には、あとで本を渡すつもり。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10034,8 +10706,23 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "toni",
           "text": "朕くん、夕方になると、ビートがゆっくりになるね",
+          "expr": "neutral"
+        },
+        {
+          "who": "chin",
+          "text": "駅に着くまで、三人で話していこうぞ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10062,8 +10749,23 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "yoko",
           "text": "この人、昔は寒がりじゃなかったのよ",
+          "expr": "neutral"
+        },
+        {
+          "who": "chin",
+          "text": "ヨウ子、そなたも途中まで一緒に歩くがよい。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10090,6 +10792,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "toni",
           "text": "ローレン、小学生のとき、ゲームの最後のボスだけ倒して、あとはやめてたよね",
           "expr": "neutral"
@@ -10097,6 +10804,16 @@
         {
           "who": "lauren",
           "text": "倒したら、終わりだから！",
+          "expr": "neutral"
+        },
+        {
+          "who": "lauren",
+          "text": "三人なら、新作も一つずつ分けて試せるな！",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10124,7 +10841,22 @@
       "lines": [
         {
           "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
           "text": "とにとローレンが同時に「あ、新作」とコンビニを指さす",
+          "expr": "neutral"
+        },
+        {
+          "who": "lauren",
+          "text": "ほら、同時に見つけた！ 次の休みに行こうぜ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10152,7 +10884,22 @@
       "lines": [
         {
           "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
           "text": "奏が、通りすがりの影の生徒全員に名前で挨拶する。🔎奏は一度会った人の名前を忘れない",
+          "expr": "neutral"
+        },
+        {
+          "who": "kanade",
+          "text": "くしゃみは大丈夫？ 無理しないで、これを使って。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10180,7 +10927,22 @@
       "lines": [
         {
           "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
           "text": "とにがくしゃみ。奏が一瞬でティッシュを出す",
+          "expr": "neutral"
+        },
+        {
+          "who": "kanade",
+          "text": "困ったときにすぐ渡せるよう、いつも鞄に入れてるんだ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10208,7 +10970,22 @@
       "lines": [
         {
           "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
           "text": "彪馬が「今は休んでいる場合じゃない」と言いかけて、とにに「下校中くらい休みなよ」と止められる",
+          "expr": "neutral"
+        },
+        {
+          "who": "hyoma",
+          "text": "歩く時間も、予定に含めておこう。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10235,6 +11012,11 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "帰り道。三人の足音が、駅へ続く道に重なった。",
+          "expr": "neutral"
+        },
+        {
           "who": "toni",
           "text": "甘野くん、朝の光、好きでしょ。うちと同じ",
           "expr": "neutral"
@@ -10242,6 +11024,16 @@
         {
           "who": "hyoma",
           "text": "……否定はしない",
+          "expr": "neutral"
+        },
+        {
+          "who": "hyoma",
+          "text": "朝の光を浴びると、考えを始めやすい。君たちはどうだ？",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "また三人で帰ろうね。",
           "expr": "neutral"
         }
       ],
@@ -10268,8 +11060,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
-          "text": "シトがね、昨日、あなたの好きな本を聞いてきたの。",
+          "text": "……沖野 志音と、よく一緒にいるね。",
           "expr": "neutral"
         }
       ],
@@ -10291,8 +11088,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
-          "text": "シトのこと、本気？　私、ずっと応援してきたから。",
+          "text": "……沖野 志音を、どう思ってる。すぐ答えなくてもいい。",
           "expr": "neutral"
         }
       ],
@@ -10332,8 +11134,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
-          "text": "シトのこと、本気？　私、ずっと応援してきたから。",
+          "text": "……沖野 志音も気にしてる。二人で話せば、わかるかもしれない。",
           "expr": "neutral"
         }
       ],
@@ -10355,8 +11162,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
-          "text": "シトの隣にいる人が、あなたでよかった。",
+          "text": "……沖野 志音の気持ちも、君の気持ちも聞けた。それでいい。",
           "expr": "neutral"
         }
       ],
@@ -10378,8 +11190,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
-          "text": "シトの隣にいる人が、あなたでよかった。",
+          "text": "……沖野 志音のこと、まだ整理できない。少し時間をくれる？",
           "expr": "neutral"
         }
       ],
@@ -10401,8 +11218,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
-          "text": "シトがね、昨日、あなたの好きな本を聞いてきたの。",
+          "text": "最近、沖 シトとよく話してるね。どんな時間を過ごしているの？",
           "expr": "neutral"
         }
       ],
@@ -10424,8 +11246,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
-          "text": "シトのこと、本気？　私、ずっと応援してきたから。",
+          "text": "沖 シトのこと、どう思ってる？ 急がなくていいから聞かせて。",
           "expr": "neutral"
         }
       ],
@@ -10434,14 +11261,14 @@
           "prompt": "どう答える？",
           "options": [
             {
-              "text": "自分の気持ちを、正直に話す。",
+              "text": "自分の気持ちを、正直に話す。（沖 シト・縁のある二人）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今は、答えを急がずにいたい。",
+              "text": "今は、答えを急がずにいたい。（沖 シト・縁のある二人）",
               "effects": {},
               "response": []
             }
@@ -10465,8 +11292,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
-          "text": "シトのこと、本気？　私、ずっと応援してきたから。",
+          "text": "沖 シトもあなたのことが気になるみたい。二人で話せるといいね。",
           "expr": "neutral"
         }
       ],
@@ -10488,8 +11320,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
-          "text": "シトの隣にいる人が、あなたでよかった。",
+          "text": "沖 シトもあなたも、大切にしたい。話してくれてありがとう。",
           "expr": "neutral"
         }
       ],
@@ -10511,8 +11348,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
-          "text": "シトの隣にいる人が、あなたでよかった。",
+          "text": "沖 シトとのこと、まだ少し戸惑ってるの。ゆっくり話してもいい？",
           "expr": "neutral"
         }
       ],
@@ -10534,8 +11376,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
-          "text": "君と話した日の冬城は、調子がいい。",
+          "text": "最近、甘野 彪馬と話しているところをよく見るよ。",
           "expr": "neutral"
         }
       ],
@@ -10557,8 +11404,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
-          "text": "冬城のことを、どう考えている？",
+          "text": "甘野 彪馬のこと、君はどう思ってる？ 急がなくていいから。",
           "expr": "neutral"
         }
       ],
@@ -10567,14 +11419,14 @@
           "prompt": "どう答える？",
           "options": [
             {
-              "text": "自分の気持ちを、正直に話す。",
+              "text": "自分の気持ちを、正直に話す。（甘野 彪馬・縁のある二人）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今は、答えを急がずにいたい。",
+              "text": "今は、答えを急がずにいたい。（甘野 彪馬・縁のある二人）",
               "effects": {},
               "response": []
             }
@@ -10598,8 +11450,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
-          "text": "冬城のことを、どう考えている？",
+          "text": "甘野 彪馬も君を気にかけてる。二人で話せるといいね。",
           "expr": "neutral"
         }
       ],
@@ -10621,8 +11478,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
-          "text": "……僕が休むと、冬城が元気になる。わかりやすい関係だ。",
+          "text": "甘野 彪馬と君の気持ちを聞けてよかった。僕も見守るよ。",
           "expr": "neutral"
         }
       ],
@@ -10644,8 +11506,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
-          "text": "……僕が休むと、冬城が元気になる。わかりやすい関係だ。",
+          "text": "甘野 彪馬のこと、まだ整理できていないんだ。少し時間をくれる？",
           "expr": "neutral"
         }
       ],
@@ -10667,8 +11534,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
-          "text": "君と話した日の冬城は、調子がいい。",
+          "text": "最近、冬城 奏と過ごす時間が増えているな。",
           "expr": "neutral"
         }
       ],
@@ -10690,8 +11562,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
-          "text": "冬城のことを、どう考えている？",
+          "text": "冬城 奏をどう考えている？ 今すぐの答えは求めない。",
           "expr": "neutral"
         }
       ],
@@ -10700,14 +11577,14 @@
           "prompt": "どう答える？",
           "options": [
             {
-              "text": "自分の気持ちを、正直に話す。",
+              "text": "自分の気持ちを、正直に話す。（冬城 奏・縁のある二人）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今は、答えを急がずにいたい。",
+              "text": "今は、答えを急がずにいたい。（冬城 奏・縁のある二人）",
               "effects": {},
               "response": []
             }
@@ -10731,8 +11608,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
-          "text": "冬城のことを、どう考えている？",
+          "text": "冬城 奏も君を気にかけている。まずは話してみるといい。",
           "expr": "neutral"
         }
       ],
@@ -10754,8 +11636,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
-          "text": "……僕が休むと、冬城が元気になる。わかりやすい関係だ。",
+          "text": "冬城 奏と君の考えが聞けた。僕も二人を見守ろう。",
           "expr": "neutral"
         }
       ],
@@ -10777,8 +11664,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
-          "text": "……僕が休むと、冬城が元気になる。わかりやすい関係だ。",
+          "text": "冬城 奏については、まだ考えがまとまらない。時間をくれ。",
           "expr": "neutral"
         }
       ],
@@ -10800,8 +11692,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
-          "text": "朕がさ、最近お前の話ばっかすんの。",
+          "text": "そなた、一ノ瀬 ローレンとよく話しておるな。",
           "expr": "neutral"
         }
       ],
@@ -10823,8 +11720,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
-          "text": "朕のやる気、俺じゃ出せなかったのに、お前は出せる。",
+          "text": "一ノ瀬 ローレンをどう思う？ 答えは、急がずともよいぞ。",
           "expr": "neutral"
         }
       ],
@@ -10833,14 +11735,14 @@
           "prompt": "どう答える？",
           "options": [
             {
-              "text": "自分の気持ちを、正直に話す。",
+              "text": "自分の気持ちを、正直に話す。（一ノ瀬 ローレン・縁のある二人）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今は、答えを急がずにいたい。",
+              "text": "今は、答えを急がずにいたい。（一ノ瀬 ローレン・縁のある二人）",
               "effects": {},
               "response": []
             }
@@ -10864,8 +11766,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
-          "text": "朕のやる気、俺じゃ出せなかったのに、お前は出せる。",
+          "text": "一ノ瀬 ローレンもそなたを気にかけておる。話してみるがよい。",
           "expr": "neutral"
         }
       ],
@@ -10887,8 +11794,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
-          "text": "火をつけるのはお前、走らせるのは俺。いいチームじゃん。",
+          "text": "一ノ瀬 ローレンもそなたも、話せてよかったのぅ。朕も見守ろう。",
           "expr": "neutral"
         }
       ],
@@ -10910,8 +11822,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
-          "text": "火をつけるのはお前、走らせるのは俺。いいチームじゃん。",
+          "text": "一ノ瀬 ローレンとのこと、朕もまだ考え中じゃ。少し時間をくれぬか。",
           "expr": "neutral"
         }
       ],
@@ -10933,8 +11850,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
-          "text": "朕がさ、最近お前の話ばっかすんの。",
+          "text": "なあ、最近朕・ヒロシとよく話してるよな！",
           "expr": "neutral"
         }
       ],
@@ -10956,8 +11878,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
-          "text": "朕のやる気、俺じゃ出せなかったのに、お前は出せる。",
+          "text": "朕・ヒロシのこと、どう思ってる？ 答えはゆっくりでいいぜ。",
           "expr": "neutral"
         }
       ],
@@ -10966,14 +11893,14 @@
           "prompt": "どう答える？",
           "options": [
             {
-              "text": "自分の気持ちを、正直に話す。",
+              "text": "自分の気持ちを、正直に話す。（朕・ヒロシ・縁のある二人）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今は、答えを急がずにいたい。",
+              "text": "今は、答えを急がずにいたい。（朕・ヒロシ・縁のある二人）",
               "effects": {},
               "response": []
             }
@@ -10997,8 +11924,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
-          "text": "朕のやる気、俺じゃ出せなかったのに、お前は出せる。",
+          "text": "朕・ヒロシもお前のこと気にしてたぜ。話してみたらどうだ？",
           "expr": "neutral"
         }
       ],
@@ -11020,8 +11952,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
-          "text": "火をつけるのはお前、走らせるのは俺。いいチームじゃん。",
+          "text": "朕・ヒロシもお前も、ちゃんと話せてよかった！",
           "expr": "neutral"
         }
       ],
@@ -11043,8 +11980,13 @@
       "bgm": "daily",
       "lines": [
         {
+          "who": "narr",
+          "text": "言葉を選びながら、相手がこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
-          "text": "火をつけるのはお前、走らせるのは俺。いいチームじゃん。",
+          "text": "朕・ヒロシのこと、まだうまく飲み込めてねぇ。少し時間をくれ。",
           "expr": "neutral"
         }
       ],
@@ -11125,14 +12067,14 @@
           "prompt": "どう向き合う？",
           "options": [
             {
-              "text": "二人のことを大切にして、正直に話す。",
+              "text": "二人のことを大切にして、正直に話す。（沖 シト・二人のことを考える）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今日は、自分一人で話しに行く。",
+              "text": "今日は、自分一人で話しに行く。（沖 シト・二人のことを考える）",
               "effects": {},
               "response": []
             }
@@ -11174,14 +12116,14 @@
           "prompt": "どう向き合う？",
           "options": [
             {
-              "text": "二人のことを大切にして、正直に話す。",
+              "text": "二人のことを大切にして、正直に話す。（朕・ヒロシ・二人のことを考える）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今日は、自分一人で話しに行く。",
+              "text": "今日は、自分一人で話しに行く。（朕・ヒロシ・二人のことを考える）",
               "effects": {},
               "response": []
             }
@@ -11223,14 +12165,14 @@
           "prompt": "どう向き合う？",
           "options": [
             {
-              "text": "二人のことを大切にして、正直に話す。",
+              "text": "二人のことを大切にして、正直に話す。（一ノ瀬 ローレン・二人のことを考える）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今日は、自分一人で話しに行く。",
+              "text": "今日は、自分一人で話しに行く。（一ノ瀬 ローレン・二人のことを考える）",
               "effects": {},
               "response": []
             }
@@ -11272,14 +12214,14 @@
           "prompt": "どう向き合う？",
           "options": [
             {
-              "text": "二人のことを大切にして、正直に話す。",
+              "text": "二人のことを大切にして、正直に話す。（冬城 奏・二人のことを考える）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今日は、自分一人で話しに行く。",
+              "text": "今日は、自分一人で話しに行く。（冬城 奏・二人のことを考える）",
               "effects": {},
               "response": []
             }
@@ -11321,14 +12263,14 @@
           "prompt": "どう向き合う？",
           "options": [
             {
-              "text": "二人のことを大切にして、正直に話す。",
+              "text": "二人のことを大切にして、正直に話す。（甘野 彪馬・二人のことを考える）",
               "effects": {
                 "rs": 1
               },
               "response": []
             },
             {
-              "text": "今日は、自分一人で話しに行く。",
+              "text": "今日は、自分一人で話しに行く。（甘野 彪馬・二人のことを考える）",
               "effects": {},
               "response": []
             }
@@ -11360,9 +12302,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "ずっと“そばにいるよ”って言う係だった。……でも、{name}{chan}にだけは、“そばにいて”って言いたい",
           "expr": "blush"
+        },
+        {
+          "who": "shion",
+          "text": "うん。これからも、隣にいてほしい。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11384,9 +12336,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "……ずっと、一人の人の本を追ってきた。これからは、一人の人の隣を、追いかけたい。……君の",
           "expr": "blush"
+        },
+        {
+          "who": "shito",
+          "text": "……次のページも、君と一緒に読みたい。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11408,6 +12370,11 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "朕は、そなたの隣で、ちょうどよい。……朕の窯の火を、ずっと見ていてはくれぬか",
           "expr": "blush",
@@ -11415,8 +12382,8 @@
         },
         {
           "who": "chin",
-          "text": "われ",
-          "expr": "blush"
+          "text": "そなたとなら、この火を大切に守っていける。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11438,9 +12405,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "退屈な世界なんて、もう変えなくていい。お前がいれば、毎日、予想外だ。……付き合ってくれ！！",
           "expr": "blush"
+        },
+        {
+          "who": "lauren",
+          "text": "これからも、二人で面白いことを見つけようぜ！",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11462,9 +12439,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "一度会った人を忘れない、って言ったよね。……君のことは、忘れないんじゃなくて、ずっと隣で覚え続けたい",
           "expr": "blush"
+        },
+        {
+          "who": "kanade",
+          "text": "君の隣で、僕もちゃんと休めそうだ。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11486,9 +12473,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "合理的に考えた。……考えたけど、答えが出なかった。だから、気持ちで言う。君が好きだ。今は、休んでいる場合じゃない。……告白しているからな",
           "expr": "blush"
+        },
+        {
+          "who": "hyoma",
+          "text": "君の前では、答えを急がずにいられる。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11510,9 +12507,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shion",
           "text": "恋とか、まだわかんない。でも、{name}{chan}がいちばん安心する。……卒業しても、交代でそばにいよう？",
           "expr": "happy"
+        },
+        {
+          "who": "shion",
+          "text": "一緒にいると、いつもの景色がやさしく見えるね。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11534,9 +12541,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "shito",
           "text": "……君は、僕の本棚の、いちばん手の届くところにいる。それで十分",
           "expr": "faint_smile"
+        },
+        {
+          "who": "shito",
+          "text": "同じ本棚に、また一冊ずつ増やしていこう。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11558,10 +12575,20 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "chin",
           "text": "朕の“ちょうどよい”を知っている者は、そなただけじゃ。……親友として、朕の宮殿に招こう",
           "expr": "warm_smile",
           "beat": 104
+        },
+        {
+          "who": "chin",
+          "text": "これからも、ちょうどよい速さで歩こうぞ。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11583,9 +12610,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "lauren",
           "text": "お前がいると、やる気が出ない日も怖くねぇ。……最強の相棒な！",
           "expr": "grin"
+        },
+        {
+          "who": "lauren",
+          "text": "次のご褒美も、一緒に探そう！",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11607,9 +12644,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "kanade",
           "text": "君を守るんじゃなくて、君と並んで立ちたい。……ずっと、仲間として",
           "expr": "smile"
+        },
+        {
+          "who": "kanade",
+          "text": "困ったときは、お互いに声をかけよう。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -11631,9 +12678,19 @@
       "bgm": "ending",
       "lines": [
         {
+          "who": "narr",
+          "text": "後夜祭の灯りが遠くに見える。銀杏の木の下で、相手はまっすぐにこちらを見た。",
+          "expr": "neutral"
+        },
+        {
           "who": "hyoma",
           "text": "君は、僕が休んでいい場所だ。……それは、たぶん、友情という名前だ",
           "expr": "small_smile"
+        },
+        {
+          "who": "hyoma",
+          "text": "明日の予定に、君と話す時間を入れておく。",
+          "expr": "neutral"
         }
       ],
       "choices": [],
@@ -12069,7 +13126,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "ベンチの忘れ物を見つけた志音が、持ち主を探している。",
           "expr": "neutral"
         },
         {
@@ -12083,19 +13140,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "一緒に持ち主を探そう。",
               "effects": {
                 "shion_f": 3,
                 "shion_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "近くの案内所に届けよう。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12118,7 +13187,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "公園の花壇の前で、志音が立ち止まった。",
           "expr": "neutral"
         },
         {
@@ -12132,19 +13201,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "好きな花について聞く。",
               "effects": {
                 "shion_f": 3,
                 "shion_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "花壇の世話の札を一緒に読む。",
               "effects": {
                 "shion_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "うん、あなたが聞いてくれると、私も落ち着いて話せる。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12167,7 +13248,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "古本屋の軒先で、シトが雨雲を見上げていた。",
           "expr": "neutral"
         },
         {
@@ -12181,19 +13262,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "本を濡らさないよう軒下で待つ。",
               "effects": {
                 "shito_f": 3,
                 "shito_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "店の人に袋を借りる。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12216,7 +13309,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "図書室で借りた本を、シトが大切そうに抱えている。",
           "expr": "neutral"
         },
         {
@@ -12230,19 +13323,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "本の続きを聞かせてもらう。",
               "effects": {
                 "shito_f": 3,
                 "shito_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "読み終わるまで静かに待つ。",
               "effects": {
                 "shito_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……急がなくていい。言葉は、少しずつで。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12265,7 +13370,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "肌寒い風に、朕が両手をこすり合わせた。",
           "expr": "neutral"
         },
         {
@@ -12279,19 +13384,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "温かい飲み物を一緒に探す。",
               "effects": {
                 "chin_f": 3,
                 "chin_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "日なたで少し休もうと誘う。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12314,7 +13431,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "朕が店先の昆布を見て、足を止めた。",
           "expr": "neutral"
         },
         {
@@ -12328,19 +13445,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "昆布のおすすめを聞く。",
               "effects": {
                 "chin_f": 3,
                 "chin_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "温かい食べ物を見に行く。",
               "effects": {
                 "chin_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "よいぞ。そなたとなら、考える時間も悪くないのぅ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12363,7 +13492,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "ローレンが新しい遊び場のポスターを見つけた。",
           "expr": "neutral"
         },
         {
@@ -12377,19 +13506,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "何が面白そうか聞いてみる。",
               "effects": {
                 "lauren_f": 3,
                 "lauren_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "一緒に次の休みの予定を考える。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12412,7 +13553,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "ローレンは新作のお菓子を二つ手に持って迷っている。",
           "expr": "neutral"
         },
         {
@@ -12426,19 +13567,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "気になる味を一緒に選ぶ。",
               "effects": {
                 "lauren_f": 3,
                 "lauren_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "どちらも分け合おうと提案する。",
               "effects": {
                 "lauren_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいね！　わからないところから、一緒に探そうぜ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12461,7 +13614,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "奏が転びそうになった子に、さっと手を貸した。",
           "expr": "neutral"
         },
         {
@@ -12475,19 +13628,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "その子の荷物を一緒に拾う。",
               "effects": {
                 "kanade_f": 3,
                 "kanade_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "近くに家族がいるか確かめる。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12510,7 +13675,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "奏が店の買い出し袋を両手に持っていた。",
           "expr": "neutral"
         },
         {
@@ -12524,19 +13689,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "袋を一つ持とうと申し出る。",
               "effects": {
                 "kanade_f": 3,
                 "kanade_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "店まで一緒に歩こうと誘う。",
               "effects": {
                 "kanade_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "うん。気になるところを、一つずつ確かめよう。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12559,7 +13736,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "彪馬が参考書を抱えたまま、空を見上げていた。",
           "expr": "neutral"
         },
         {
@@ -12573,19 +13750,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "休憩する場所を探そうと誘う。",
               "effects": {
                 "hyoma_f": 3,
                 "hyoma_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "急な雨に備えて道を確認する。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12608,7 +13797,7 @@
       "lines": [
         {
           "who": "narr",
-          "text": "帰り道、思いがけず空が曇ってきた。",
+          "text": "道端の小さな犬を、彪馬が気にして立ち止まった。",
           "expr": "neutral"
         },
         {
@@ -12622,19 +13811,31 @@
           "prompt": "このあと、どう過ごす？",
           "options": [
             {
-              "text": "雨を避けて、ゆっくり話そう。",
+              "text": "飼い主が近くにいるか見る。",
               "effects": {
                 "hyoma_f": 3,
                 "hyoma_t": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             },
             {
-              "text": "予定を確かめて、駅へ向かおう。",
+              "text": "犬を驚かせない距離で待つ。",
               "effects": {
                 "hyoma_f": 2
               },
-              "response": []
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "わからないままにしない。それは大切だ。",
+                  "expr": "neutral"
+                }
+              ]
             }
           ]
         }
@@ -12713,7 +13914,7 @@
           "prompt": "お昼を一緒に食べたい人は？",
           "options": [
             {
-              "text": "沖野 志音",
+              "text": "沖野 志音と昼食をとる。",
               "effects": {
                 "shion_f": 6
               },
@@ -12727,7 +13928,7 @@
               "char": "shion"
             },
             {
-              "text": "沖 シト",
+              "text": "沖 シトと昼食をとる。",
               "effects": {
                 "shito_f": 6
               },
@@ -12741,7 +13942,7 @@
               "char": "shito"
             },
             {
-              "text": "朕・ヒロシ",
+              "text": "朕・ヒロシと昼食をとる。",
               "effects": {
                 "chin_f": 6
               },
@@ -12755,7 +13956,7 @@
               "char": "chin"
             },
             {
-              "text": "一ノ瀬 ローレン",
+              "text": "一ノ瀬 ローレンと昼食をとる。",
               "effects": {
                 "lauren_f": 6
               },
@@ -12769,7 +13970,7 @@
               "char": "lauren"
             },
             {
-              "text": "冬城 奏",
+              "text": "冬城 奏と昼食をとる。",
               "effects": {
                 "kanade_f": 6
               },
@@ -12783,7 +13984,7 @@
               "char": "kanade"
             },
             {
-              "text": "甘野 彪馬",
+              "text": "甘野 彪馬と昼食をとる。",
               "effects": {
                 "hyoma_f": 6
               },
@@ -12803,7 +14004,7 @@
           "prompt": "部活対抗リレー、誰を応援する？",
           "options": [
             {
-              "text": "沖野 志音",
+              "text": "沖野 志音をリレーで応援する。",
               "effects": {
                 "shion_f": 3,
                 "shion_t": 2
@@ -12811,7 +14012,7 @@
               "response": []
             },
             {
-              "text": "沖 シト",
+              "text": "沖 シトをリレーで応援する。",
               "effects": {
                 "shito_f": 3,
                 "shito_t": 2
@@ -12819,7 +14020,7 @@
               "response": []
             },
             {
-              "text": "朕・ヒロシ",
+              "text": "朕・ヒロシをリレーで応援する。",
               "effects": {
                 "chin_f": 3,
                 "chin_t": 2
@@ -12827,7 +14028,7 @@
               "response": []
             },
             {
-              "text": "一ノ瀬 ローレン",
+              "text": "一ノ瀬 ローレンをリレーで応援する。",
               "effects": {
                 "lauren_f": 3,
                 "lauren_t": 2
@@ -12835,7 +14036,7 @@
               "response": []
             },
             {
-              "text": "冬城 奏",
+              "text": "冬城 奏をリレーで応援する。",
               "effects": {
                 "kanade_f": 3,
                 "kanade_t": 2
@@ -12843,7 +14044,7 @@
               "response": []
             },
             {
-              "text": "甘野 彪馬",
+              "text": "甘野 彪馬をリレーで応援する。",
               "effects": {
                 "hyoma_f": 3,
                 "hyoma_t": 2
@@ -13281,7 +14482,7 @@
           "prompt": "眠る前に、ひとこと。",
           "options": [
             {
-              "text": "今日、楽しかった。",
+              "text": "今日、楽しかった。（沖 シト・合宿の夜）",
               "effects": {
                 "shito_f": 2,
                 "shito_t": 2,
@@ -13290,14 +14491,14 @@
               "response": []
             },
             {
-              "text": "一緒に過ごせて、よかった。",
+              "text": "一緒に過ごせて、よかった。（沖 シト・合宿の夜）",
               "effects": {
                 "shito_f": 1
               },
               "response": []
             },
             {
-              "text": "明日の自習の話をする。",
+              "text": "明日の自習の話をする。（沖 シト・合宿の夜）",
               "effects": {
                 "hyoma_f": 2
               },
@@ -13804,7 +15005,7 @@
               "response": []
             },
             {
-              "text": "隣で、いっしょに作業を続ける。",
+              "text": "隣で、いっしょに作業を続ける。（沖 シト・雨の日の工作）",
               "effects": {
                 "shito_f": 1
               },
@@ -13855,7 +15056,7 @@
               ]
             },
             {
-              "text": "隣で、いっしょに作業を続ける。",
+              "text": "隣で、いっしょに作業を続ける。（朕・ヒロシ・雨の日の工作）",
               "effects": {
                 "chin_f": 1
               },
@@ -13900,7 +15101,7 @@
               "response": []
             },
             {
-              "text": "隣で、いっしょに作業を続ける。",
+              "text": "隣で、いっしょに作業を続ける。（一ノ瀬 ローレン・雨の日の工作）",
               "effects": {
                 "lauren_f": 1
               },
@@ -13951,7 +15152,7 @@
               ]
             },
             {
-              "text": "隣で、いっしょに作業を続ける。",
+              "text": "隣で、いっしょに作業を続ける。（冬城 奏・雨の日の工作）",
               "effects": {
                 "kanade_f": 1
               },
@@ -14002,7 +15203,7 @@
               ]
             },
             {
-              "text": "隣で、いっしょに作業を続ける。",
+              "text": "隣で、いっしょに作業を続ける。（甘野 彪馬・雨の日の工作）",
               "effects": {
                 "hyoma_f": 1
               },
@@ -14823,7 +16024,7 @@
           "prompt": "次のお客さんのために、何をしよう？",
           "options": [
             {
-              "text": "二人と声をかけ合い、案内を整える。",
+              "text": "二人と声をかけ合い、案内を整える。（装飾班・装飾班）",
               "effects": {
                 "chin_f": 2,
                 "shion_f": 2
@@ -14837,7 +16038,7 @@
               ]
             },
             {
-              "text": "休憩の順番を確認して、交代を提案する。",
+              "text": "休憩の順番を確認して、交代を提案する。（装飾班・装飾班）",
               "effects": {
                 "stress": -3,
                 "shion_f": 2
@@ -14900,7 +16101,7 @@
           "prompt": "次のお客さんのために、何をしよう？",
           "options": [
             {
-              "text": "二人と声をかけ合い、案内を整える。",
+              "text": "二人と声をかけ合い、案内を整える。（宣伝・案内班・宣伝・案内班）",
               "effects": {
                 "lauren_f": 2,
                 "kanade_f": 2
@@ -14914,7 +16115,7 @@
               ]
             },
             {
-              "text": "休憩の順番を確認して、交代を提案する。",
+              "text": "休憩の順番を確認して、交代を提案する。（宣伝・案内班・宣伝・案内班）",
               "effects": {
                 "stress": -3,
                 "kanade_f": 2
