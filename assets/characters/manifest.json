@@ -40,13 +40,14 @@
     },
     {
       "id": "kanade",
-      "file": "web/kanade.webp",
-      "sha256": "ebc64aa5f011fe9107e6dc10c0f68ff24be4f01ef3e25101ac9d1bea4734b7f1",
+      "file": "web/kanade_mash_20261107.webp",
+      "sha256": "31d11868c50e68644efa67be96034725f2a6819fc83e158a47f6659cf76a4615",
       "reference": "kanade/concept-neutral.png",
-      "prompt": "Replace only navy blazer with white knitted school cardigan; preserve exact identity, silver hair, sky-blue eyes, full-body pose, kendo bag and transparency",
-      "status": "white cardigan correction",
-      "encoding": "WebP q80, original pixel dimensions",
-      "master_sha256": "f63a4a94161a34b5908fd6d84bdb912f09d339cb1bb70e1e5ab4d28427623152"
+      "prompt": "既存の冬城奏の顔・衣装・ポーズ・表情を維持し、目にかかる長めのマッシュへ髪型を変更。背景は透過。",
+      "status": "2026-11-07 生徒の提案に合わせて再生成、画面で要確認",
+      "encoding": "WebP q85, original pixel dimensions",
+      "generator": "built-in imagegen",
+      "master_sha256": "ca855e38cd5072ed69e6d866b6790238f018c2321dfb7045d40ba54f1bc959f9"
     },
     {
       "id": "hyoma",
@@ -365,7 +366,7 @@
     },
     {
       "id": "kanade_atlas_corrected",
-      "file": "web/kanade_atlas_corrected.webp",
+      "file": "web/kanade_atlas_mash_20261107.webp",
       "character": "kanade",
       "columns": 3,
       "rows": 2,
@@ -377,12 +378,13 @@
         "blush",
         "lonely"
       ],
-      "sha256": "04a38381852081d110ced26ee85cf1ea2a9fcbb60755139eb7fce5c631514f5e",
+      "sha256": "98634e5d77c246d5f7943c52ec1296f8f48982f41c265520abe0c7e62f32b883",
       "reference": "exec-038c6802-7741-4d18-ac1d-5f42ee1ff1e5.png",
-      "prompt": "Correct white cardigan / tied-back night hairstyle while preserving identity and atlas arrangement",
-      "status": "visually reviewed; soft translucent edge glow retained",
-      "encoding": "WebP q80, original pixel dimensions",
-      "master_sha256": "79369745910c37857b1091757e87ce6933d844501302c54a4edbfed53e8317dd"
+      "prompt": "既存の冬城奏の顔・衣装・ポーズ・表情を維持し、目にかかる長めのマッシュへ髪型を変更。背景は透過。",
+      "status": "2026-11-07 生徒の提案に合わせて再生成、画面で要確認",
+      "encoding": "WebP q85, original pixel dimensions",
+      "generator": "built-in imagegen",
+      "master_sha256": "7ef35680de73aac5f257669d0a1d1de2a2de6457aa1bd9e944bd5859635f16cc"
     },
     {
       "id": "eguchi_night_atlas",

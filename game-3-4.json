@@ -13,7 +13,7 @@
     "friend": "toni",
     "mentor": "eguchi",
     "author": "原案・脚本案：エモ／データ化・補完：モン（先生承認 2026-11-05）",
-    "build_id": "6475186d9e27cd9f"
+    "build_id": "34bcce1e705659b8"
   },
   "rules": {
     "stats": {
@@ -3438,17 +3438,23 @@
           "options": [
             {
               "text": "謎づくり班（シト・彪馬）",
-              "effects": {},
+              "effects": {
+                "festival_role": 1
+              },
               "response": []
             },
             {
               "text": "装飾班（朕・志音）",
-              "effects": {},
+              "effects": {
+                "festival_role": 2
+              },
               "response": []
             },
             {
               "text": "宣伝・案内班（ローレン・奏）",
-              "effects": {},
+              "effects": {
+                "festival_role": 3
+              },
               "response": []
             }
           ],
@@ -3991,17 +3997,27 @@
       "lines": [
         {
           "who": "narr",
-          "text": "（「体内脱出ゲーム」開場。影の生徒の客が次々に入っていく）",
+          "text": "文化祭当日。教室の前には、開場を待つ列ができていた。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "いよいよだね。みんなで作った体内脱出ゲーム、ちゃんと楽しんでもらえるかな。",
+          "expr": "neutral"
+        },
+        {
+          "who": "lauren",
+          "text": "大丈夫！ 困った人には、俺たちが次の一歩を渡せばいい。",
+          "expr": "neutral"
+        },
+        {
+          "who": "hyoma",
+          "text": "受付と案内は交代制だ。無理をせず、困ったら声をかけてくれ。",
           "expr": "neutral"
         },
         {
           "who": "narr",
-          "text": "（主人公の係ごとに、午前の短い場面が一つ）",
-          "expr": "neutral"
-        },
-        {
-          "who": "narr",
-          "text": "（脱出ゲームの「最後の部屋」の裏で、休憩。最後の部屋の扉に書かれた謎を、二人で眺める）",
+          "text": "最初の客が扉をくぐる。自分が選んだ係の場所へ向かった。",
           "expr": "neutral"
         }
       ],
@@ -4009,7 +4025,7 @@
       "clues": [],
       "goto": {
         "type": "next",
-        "id": "ev_crisis"
+        "id": "fest_role"
       },
       "background": "bg_class34_escape_open",
       "after": []
@@ -12852,6 +12868,26 @@
       "lines": [
         {
           "who": "narr",
+          "text": "湖の見える研修センターに着くと、玄関に二日間の予定が貼られていた。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "午前は自習、午後は班でカレー。休憩も予定に入ってるよ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "hyoma",
+          "text": "僕は予定を先に進める。……休憩も、必要なら取る。",
+          "expr": "neutral"
+        },
+        {
+          "who": "shion",
+          "text": "必要かどうか、一緒に確かめよう。まずは荷物を置こうね。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
           "text": "（湖の見える自習室。江口先生は昼モードで静かに巡回している）",
           "expr": "neutral"
         },
@@ -13030,13 +13066,19 @@
               "response": []
             },
             {
-              "text": "生物基礎「体内環境」／ eguchi「いいわね！　体の中の連絡網は、先生も好きよ。上から順に命令が降りていくの。……ふふ、先生みたいでしょう？」",
+              "text": "生物基礎「体内環境」",
               "effects": {
                 "rika": 3,
                 "eguchi_f": 18,
                 "eguchi_u": 1
               },
-              "response": []
+              "response": [
+                {
+                  "who": "eguchi",
+                  "text": "いいわね！ 体の中の連絡網を、上から順にたどってみましょう。",
+                  "expr": "day_neutral"
+                }
+              ]
             },
             {
               "text": "行かずに休む",
@@ -14324,6 +14366,373 @@
       ],
       "background": "bg_class34_dusk",
       "mode": "night"
+    },
+    {
+      "id": "ev_lunch_exchange",
+      "title": "昼休みの交換会",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "daily",
+      "lines": [
+        {
+          "who": "narr",
+          "text": "昼休み。教室の後ろに、好きな本や音楽を紹介する小さな机ができた。",
+          "expr": "neutral"
+        },
+        {
+          "who": "shito",
+          "text": "……一人一つ、好きなものを置いていく。説明は短くてもいい。",
+          "expr": "neutral"
+        },
+        {
+          "who": "lauren",
+          "text": "面白そう！ 知らなかった好きなものが、見つかるかもしれないな。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "自分なら、何を紹介しよう？",
+          "options": [
+            {
+              "text": "最近気に入った本を紹介する。",
+              "effects": {
+                "shito_f": 2,
+                "gaku": 1
+              },
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "……その続き、今度教えて。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "元気が出る音楽を紹介する。",
+              "effects": {
+                "lauren_f": 2,
+                "gei": 1
+              },
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "いいじゃん！ 放課後に聴いてみる！",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "二人のおすすめを聞いてみる。",
+              "effects": {
+                "shito_f": 1,
+                "lauren_f": 1,
+                "kiku": 1
+              },
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "じゃあ一曲ずつな。沖のおすすめも気になる！",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "DAY"
+      },
+      "after": [
+        {
+          "who": "toni",
+          "text": "知らなかった一面が見えると、次に話すきっかけになるね。",
+          "expr": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "fest_role_puzzle",
+      "title": "謎づくり班",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "culture_fest",
+      "lines": [
+        {
+          "who": "shito",
+          "text": "……最初の謎で立ち止まっている人がいる。ヒントを出そうか。",
+          "expr": "neutral"
+        },
+        {
+          "who": "hyoma",
+          "text": "答えを言うのではなく、最初の手がかりを示そう。自分で気づける余地は残したい。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "手がかりを指すと、客の表情がぱっと明るくなった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "さっきの子たち、「もう一回やりたい」って！ ここまで準備してよかったね。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "昼の休憩が終わるころ、教室の外の列はさらに長くなっていた。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "次のお客さんのために、何をしよう？",
+          "options": [
+            {
+              "text": "二人と声をかけ合い、案内を整える。",
+              "effects": {
+                "shito_f": 2,
+                "hyoma_f": 2
+              },
+              "response": [
+                {
+                  "who": "shito",
+                  "text": "うん。一人で抱えないほうが、うまくいく。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "休憩の順番を確認して、交代を提案する。",
+              "effects": {
+                "stress": -3,
+                "hyoma_f": 2
+              },
+              "response": [
+                {
+                  "who": "hyoma",
+                  "text": "ありがとう。続けるために、休む時間も必要だね。",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "ev_crisis"
+      },
+      "background": "bg_class34_escape_open"
+    },
+    {
+      "id": "fest_role_decor",
+      "title": "装飾班",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "culture_fest",
+      "lines": [
+        {
+          "who": "chin",
+          "text": "飾りの矢印が曲がっておる。道に迷わせては、謎を解く前に疲れてしまうのぅ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "shion",
+          "text": "私が向こうを直すね。一緒に、次の部屋まで見やすくしよう。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "貼り直した矢印をたどり、客たちは笑いながら次の扉へ進んだ。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "さっきの子たち、「もう一回やりたい」って！ ここまで準備してよかったね。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "昼の休憩が終わるころ、教室の外の列はさらに長くなっていた。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "次のお客さんのために、何をしよう？",
+          "options": [
+            {
+              "text": "二人と声をかけ合い、案内を整える。",
+              "effects": {
+                "chin_f": 2,
+                "shion_f": 2
+              },
+              "response": [
+                {
+                  "who": "chin",
+                  "text": "うん。一人で抱えないほうが、うまくいく。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "休憩の順番を確認して、交代を提案する。",
+              "effects": {
+                "stress": -3,
+                "shion_f": 2
+              },
+              "response": [
+                {
+                  "who": "shion",
+                  "text": "ありがとう。続けるために、休む時間も必要だね。",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "ev_crisis"
+      },
+      "background": "bg_class34_escape_open"
+    },
+    {
+      "id": "fest_role_guide",
+      "title": "宣伝・案内班",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "culture_fest",
+      "lines": [
+        {
+          "who": "lauren",
+          "text": "次の組、いらっしゃい！ 怖くないから、まずは好きな扉を選んでくれ！",
+          "expr": "neutral"
+        },
+        {
+          "who": "kanade",
+          "text": "走らなくて大丈夫。足元に気をつけて、ゆっくり行こう。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "案内にうなずいた客は、仲間と相談しながら教室へ入った。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "さっきの子たち、「もう一回やりたい」って！ ここまで準備してよかったね。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "昼の休憩が終わるころ、教室の外の列はさらに長くなっていた。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "次のお客さんのために、何をしよう？",
+          "options": [
+            {
+              "text": "二人と声をかけ合い、案内を整える。",
+              "effects": {
+                "lauren_f": 2,
+                "kanade_f": 2
+              },
+              "response": [
+                {
+                  "who": "lauren",
+                  "text": "うん。一人で抱えないほうが、うまくいく。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "休憩の順番を確認して、交代を提案する。",
+              "effects": {
+                "stress": -3,
+                "kanade_f": 2
+              },
+              "response": [
+                {
+                  "who": "kanade",
+                  "text": "ありがとう。続けるために、休む時間も必要だね。",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "ev_crisis"
+      },
+      "background": "bg_class34_escape_open"
+    },
+    {
+      "id": "fest_role",
+      "title": "文化祭の係",
+      "char": null,
+      "day": "talk",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "culture_fest",
+      "lines": [],
+      "choices": [],
+      "clues": [],
+      "goto": {
+        "type": "if",
+        "cond": [
+          [
+            "festival_role",
+            "==",
+            2
+          ]
+        ],
+        "then": "fest_role_decor",
+        "else": "fest_role_other"
+      }
+    },
+    {
+      "id": "fest_role_other",
+      "title": "文化祭の係",
+      "char": null,
+      "day": "talk",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "culture_fest",
+      "lines": [],
+      "choices": [],
+      "clues": [],
+      "goto": {
+        "type": "if",
+        "cond": [
+          [
+            "festival_role",
+            "==",
+            3
+          ]
+        ],
+        "then": "fest_role_guide",
+        "else": "fest_role_puzzle"
+      }
     }
   ],
   "pools": {

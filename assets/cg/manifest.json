@@ -42,13 +42,13 @@
     },
     {
       "id": "cg_ginkgo_kanade",
-      "file": "web/cg_ginkgo_kanade.webp",
-      "sha256": "0b910df9b0c574a3d28e0f93f12bad4c97ee660034dcce83e63119a3796060fb",
-      "prompt": "Create one original polished anime visual-novel event illustration, wide 16:9 landscape composition, coherent anatomy and perspective, warm painterly light, no panels or collage. A quiet wholesome end-of-school-festival meeting beneath a large ginkgo tree with fresh GREEN early-summer leaves at sunset, lakeside Japanese high-school grounds. The referenced fictional student stands alone, waist-up or three-quarter view, looking toward the viewer with a restrained warm smile. Preserve exact character identity, hair, clothing and props from the reference. No autumn-yellow leaves, no text, no other people. No labels, logo or watermark.",
-      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "file": "web/cg_ginkgo_kanade_mash_20261107.webp",
+      "sha256": "9e97bb52bf7919720084b0e8b514a4d3565a6326e95c7cfb510e0277bfaacc75",
+      "prompt": "既存の結末絵の表情・服・夕景を保ち、冬城の髪を目にかかる長めのマッシュに変更。",
+      "status": "2026-11-07 髪型の整合を目視確認",
       "generator": "built-in imagegen",
-      "encoding": "WebP q80, original pixel dimensions",
-      "master_sha256": "91666e3ec389f80f187ac9b08b819a7292471648351f9c23f81f391601b421f5"
+      "encoding": "WebP q85, original pixel dimensions",
+      "master_sha256": "efbac04682af96e67750e887ca4916d42f540e7aeb27e499f24fd4390acdf8c5"
     },
     {
       "id": "cg_ginkgo_hyoma",
@@ -162,13 +162,13 @@
     },
     {
       "id": "cg_ginkgo_kanade_suki",
-      "file": "web/cg_ginkgo_kanade_suki.webp",
-      "sha256": "62eef2c6e1c9751011f94811a2161789a85b65b70a304c8f03c9d8fd3643561a",
-      "prompt": "Edit only the student's facial expression: a shy, clearly blushing, affectionate smile during a wholesome high-school confession. Preserve the exact original fictional character identity, age, clothes, hairstyle, pose, props, composition, background and sunset lighting. Do not add people, text or accessories. This is a gentle school romance, fully clothed and nonsexual.",
-      "status": "visually reviewed: character identity, clothing, scene, expression / gender variant",
+      "file": "web/cg_ginkgo_kanade_suki_mash_20261107.webp",
+      "sha256": "b765584a58d83b2fcced074494bad74164ba5d2e929dcd99fa2dd54cc09d85c3",
+      "prompt": "既存の結末絵の表情・服・夕景を保ち、冬城の髪を目にかかる長めのマッシュに変更。",
+      "status": "2026-11-07 髪型の整合を目視確認",
       "generator": "built-in imagegen",
-      "encoding": "WebP q80, original pixel dimensions",
-      "master_sha256": "a740d5bf855f25f50ca3403b10735017b693a788718b2d8ff2426c0b1049bb57"
+      "encoding": "WebP q85, original pixel dimensions",
+      "master_sha256": "a4e19609c71ae9369f7716bbc20bfa45c5c437646fb080af8c52587c7d56be71"
     },
     {
       "id": "cg_ginkgo_hyoma_suki",

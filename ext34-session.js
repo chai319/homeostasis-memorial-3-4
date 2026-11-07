@@ -154,6 +154,7 @@ class Session {
     const weather=Weather.morning(this.state.weather,game.R.mood_weather,e.stress);this.state.weather.band=weather.band;
     response=yield* this.ask({...e,weather,giftTickets:this.state.gift.tickets});
     yield* this.readNamedPool(game.d.meta.friend,'toni_morning_'+weather.band);
+    if(e.day==='w1d2'&&game.S.ev_lunch_exchange&&!game.seen['scene:ev_lunch_exchange'])yield* this.runNested('ev_lunch_exchange');
     if(weather.scene){if(game.S[weather.scene])yield* this.runNested(weather.scene);else yield {type:'missing-scene',id:weather.scene};}
     if(e.weekday==='月'){
      this.state.bonusActive=this.state.bonusPending;this.state.bonusPending=false;this.state.goal=null;

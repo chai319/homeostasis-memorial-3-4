@@ -6,3 +6,5 @@
 
 /* Keep each complete expression cell and portrait within its own visible column. */
 .actor{flex:1 1 0;max-width:420px;overflow:visible}.atlas-frame{width:min(100%,420px,calc(100dvh * .48));height:auto;max-height:100%;aspect-ratio:1}.actor img{width:100%;height:100%;top:0;object-fit:contain;object-position:center bottom}.portrait-choice img{object-fit:contain;object-position:center top}
+
+#dashboard{display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;padding:8px 16px;background:#302a47;font-size:14px;line-height:1.4}#quick-stats{display:flex;flex-wrap:wrap;gap:4px 10px}.quick-stat{white-space:nowrap}#dashboard label{margin:0;color:#ffd2df;font-weight:700}#focus-person{max-width:12em;min-height:38px;padding:4px 8px;border-radius:6px;border:1px solid #d8cee9;background:#17132b;color:white}#focus-status{color:#fff1cf} .actor.active .atlas-frame{animation:actor-arrive .22s ease-out}@keyframes actor-arrive{from{opacity:.8;translate:0 6px}to{opacity:1;translate:0 0}}@media(prefers-reduced-motion:reduce){.actor.active .atlas-frame{animation:none}}@media(max-width:650px){#dashboard{padding:6px 10px;font-size:13px;gap:4px 8px}#quick-stats{gap:2px 7px}}
