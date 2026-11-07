@@ -90,6 +90,7 @@ class Session {
   }
   const id=game.d.meta.mentor,M=R.mentor.ending;
   const mentorEligible=game.fr[id]>=M.f&&game.und[id]>=M.u&&!!game.ident[id]&&Object.entries(M.stats).every(([k,n])=>game.st[k]>=n);
+  if(R.toni_route&&game.vars.toni_visits>=R.toni_route.visits_needed&&game.vars.toni_romance===1)return {kind:'suki',char:'toni',scene:'end_toni_suki',letter:mentorEligible};
   return Ending.pick(R,people,game.T,mentorEligible,Object.keys(R.pair_ending.scenes));
  }
  *submitBodymap(char,answers,dayOrdinal,{forced=false}={}){
@@ -194,10 +195,13 @@ class Session {
      game.fr[mentor]=Math.min(100,game.fr[mentor]+(M.encounter_f??0));game.talkedWith.add(mentor);
      response={handled:true};
     }else response={handled:false};
+   }else if(e.type==='decision'&&e.kind==='holiday'){
+    response=yield* this.ask(e);
+    if(response?.[0]==='play'&&game.R.toni_route){const n=Math.min(game.R.toni_route.visits_needed,(game.vars.toni_visits||0)+1);if(!game.seen['scene:toni_visit_'+n]){game.vars.toni_visits=n;yield* this.runNested('toni_visit_'+n);}}
    }else if(e.type==='scene:resolve'){
     if(e.id==='ev_epilogue'&&this.lastEnding?.letter&&!this.state.mentorLetterPlayed&&game.S.ep_letter){this.state.mentorLetterPlayed=true;yield* this.runNested('ep_letter',{stopBefore:'ev_epilogue'});}
     const mentor=game.d.meta.mentor,stage=game.R.mentor.stages.find(x=>x.n===4);
-    response=e.id==='ev_camp_room'?'ev_camp_room_'+(game.playerGender||'female'):e.id==='ev_prep_night'&&game.ident[mentor]&&game.fr[mentor]>=70&&game.seen['scene:mt_eguchi_3']&&game.S[stage.scene]?stage.scene:undefined;
+    response=e.id==='ev_epilogue'&&this.lastEnding?.scene==='end_toni_suki'&&game.S.ev_epilogue_toni?'ev_epilogue_toni':e.id==='ev_camp_room'?'ev_camp_room_'+(game.playerGender||'female'):e.id==='ev_prep_night'&&game.ident[mentor]&&game.fr[mentor]>=70&&game.seen['scene:mt_eguchi_3']&&game.S[stage.scene]?stage.scene:undefined;
    }else if(e.type==='scene:after'){
     const mentor=game.d.meta.mentor,id='mt_eguchi_2b';
     if(e.id==='ev_fusen'&&game.fr[mentor]>=30&&game.S[id]&&!game.seen['scene:'+id])yield* this.runNested(id);

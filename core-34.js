@@ -93,7 +93,7 @@ class Game {
  *apply(eff,char=null) {
   for(let [k,v] of Object.entries(eff)) {
    if(k==="pick")k=this.picked;const c=char||this.cur_char;
-   if(k==="festival_role"){this.vars.festival_role=v;continue;}
+   if(k==="festival_role"||k==="toni_romance"){this.vars[k]=v;continue;}
    if(["f","t","u","pf","pt","pu"].includes(k)) {
     const t=k.startsWith("p")?this.R.pairs[c]:c,stat=k.at(-1);
     if(!t)throw new Error("Effect needs current character: "+k);

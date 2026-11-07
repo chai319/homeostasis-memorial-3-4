@@ -13,7 +13,7 @@
     "friend": "toni",
     "mentor": "eguchi",
     "author": "原案・脚本案：エモ／データ化・補完：モン（先生承認 2026-11-05）",
-    "build_id": "34bcce1e705659b8"
+    "build_id": "2faa4d37f8232fa7"
   },
   "rules": {
     "stats": {
@@ -1545,6 +1545,9 @@
       "hyoma": [
         "planetarium"
       ]
+    },
+    "toni_route": {
+      "visits_needed": 3
     }
   },
   "places": {
@@ -14454,6 +14457,254 @@
           "expr": "neutral"
         }
       ]
+    },
+    {
+      "id": "toni_visit_1",
+      "title": "寄り道の約束",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "daily",
+      "lines": [
+        {
+          "who": "narr",
+          "text": "休日。いつもの待ち合わせ場所に、とにが少し早く来ていた。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "今日は誰かの情報じゃなくて、うちらの話をしようよ。何をして過ごす？",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "どう過ごそう？",
+          "options": [
+            {
+              "text": "湖の見える道を、ゆっくり歩く。",
+              "effects": {},
+              "response": [
+                {
+                  "who": "toni",
+                  "text": "同じ景色でも、急がないと見えるものが違うね。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "お店で好きな飲み物を選ぶ。",
+              "effects": {},
+              "response": [
+                {
+                  "who": "toni",
+                  "text": "それ、好きなんだ。今度はうちも同じのにしようかな。",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "DAY"
+      },
+      "background": "bg_gate_spring"
+    },
+    {
+      "id": "toni_visit_2",
+      "title": "言葉にしない時間",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "daily",
+      "lines": [
+        {
+          "who": "toni",
+          "text": "この前の休日、楽しかった。何もしなくても、気まずくないのが不思議。",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "空いたベンチに並んで座る。とには、空を見上げて息をついた。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "どう過ごそう？",
+          "options": [
+            {
+              "text": "沈黙も一緒に楽しもう、と伝える。",
+              "effects": {},
+              "response": [
+                {
+                  "who": "toni",
+                  "text": "うん。頑張って話さなくても、隣にいていいんだね。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "今度やってみたいことを尋ねる。",
+              "effects": {},
+              "response": [
+                {
+                  "who": "toni",
+                  "text": "朝の湖を見たいな。二人で行ったら、きっと覚えていられる。",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "DAY"
+      },
+      "background": "bg_gate_spring"
+    },
+    {
+      "id": "toni_visit_3",
+      "title": "親友のその先",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "daily",
+      "lines": [
+        {
+          "who": "narr",
+          "text": "三度目の休日。帰り道の信号が、赤に変わった。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "先輩に憧れてた気持ちは本当だよ。でも最近、いちばん話したいのは、あなただなって思う。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "うちらのこれから、あなたはどうしたい？ 答えは、どっちでも大切にするよ。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [
+        {
+          "prompt": "どう答えよう？",
+          "options": [
+            {
+              "text": "親友から、恋人になれたらうれしい。",
+              "effects": {
+                "toni_romance": 1
+              },
+              "response": [
+                {
+                  "who": "toni",
+                  "text": "……うちも。急がなくていいから、一緒に確かめていきたい。",
+                  "expr": "neutral"
+                }
+              ]
+            },
+            {
+              "text": "これからも、大切な親友でいたい。",
+              "effects": {
+                "toni_romance": 0
+              },
+              "response": [
+                {
+                  "who": "toni",
+                  "text": "うん。そう言ってくれてありがとう。これからも隣で笑おう。",
+                  "expr": "neutral"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "DAY"
+      },
+      "background": "bg_gate_spring"
+    },
+    {
+      "id": "end_toni_suki",
+      "title": "とに・スキ",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "ending",
+      "lines": [
+        {
+          "who": "narr",
+          "text": "後夜祭の灯りから少し離れた銀杏の下で、とにが待っていた。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "今まで、あなたの恋を応援する側だと思ってた。だけど、三回の休日を思い出すと、うちも特別になりたいって思った。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "好きです。親友だった時間も大事にしながら、恋人として、これからも一緒にいてくれる？",
+          "expr": "neutral"
+        },
+        {
+          "who": "narr",
+          "text": "差し出された手を取る。二人の新しい約束は、いつもの帰り道から始まる。",
+          "expr": "neutral"
+        }
+      ],
+      "choices": [],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "ev_epilogue"
+      },
+      "background": "bg_ginkgo"
+    },
+    {
+      "id": "ev_epilogue_toni",
+      "title": "とにとの翌朝",
+      "char": null,
+      "day": "event",
+      "place": "classroom",
+      "time": "放課後",
+      "bgm": "ending",
+      "lines": [
+        {
+          "who": "toni",
+          "text": "おはよ。昨日と同じ道なのに、なんだか少し照れるね。",
+          "expr": "neutral"
+        },
+        {
+          "who": "toni",
+          "text": "親友だった日も、今日からの日も、どっちも大切にしたい。これからもよろしくね。",
+          "expr": "neutral"
+        },
+        {
+          "who": "eguchi",
+          "text": "……3年4組のみなさん。夏は長いです。ちょうどよく、がんばりましょう。",
+          "expr": "day_neutral"
+        }
+      ],
+      "choices": [],
+      "clues": [],
+      "goto": {
+        "type": "next",
+        "id": "END"
+      },
+      "background": "bg_gate_summer"
     },
     {
       "id": "fest_role_puzzle",

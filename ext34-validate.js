@@ -7,7 +7,7 @@ function validate(data,assets={}){
  if(data.meta.save_key!=='homeostasis-memorial-3-4')errors.push('Invalid save namespace');
  const speakers=new Set([...expected,'eguchi','toni','yoko','toko','principal','mob','me','narr','ui']);
  const bgm=new Set([...(data.rules.bgm_ids?.min||[]),...Object.keys(data.rules.bgm_ids?.optional||{}),'keep']);
- const stats=new Set(Object.keys(data.rules.stats||{})),simpleEffects=new Set(['f','t','u','pf','pt','pu','rvok','rs','stress','pick','goal_ok','buffer','festival_role',...expected,...stats]);
+ const stats=new Set(Object.keys(data.rules.stats||{})),simpleEffects=new Set(['f','t','u','pf','pt','pu','rvok','rs','stress','pick','goal_ok','buffer','festival_role','toni_romance',...expected,...stats]);
  const simpleConditions=new Set(['f','t','u','pf','pt','ident','rvok','rs','rank','mg','festival_role','stress','weather','rain_days','birthday',...expected,...stats]);
  function validGifted(key){return expected.some(id=>key.startsWith('gifted_'+id+'_')&&Object.hasOwn(data.rules.gifts.items,key.slice(('gifted_'+id+'_').length)));}
  function checkConditions(conditions,where){for(const entry of conditions||[]){if(!Array.isArray(entry)||entry.length!==3){errors.push(where+': malformed condition');continue;}const [key,op]=entry;if(typeof key!=='string'){errors.push(where+': invalid condition key');continue;}if(!['>=','<=','>','<','==','!='].includes(op))errors.push(where+': unknown condition operator '+op);if(!simpleConditions.has(key)&&!(key.startsWith('bm_')&&[...expected,'eguchi'].includes(key.slice(3)))&&!validGifted(key))errors.push(where+': unknown condition '+key);}}
