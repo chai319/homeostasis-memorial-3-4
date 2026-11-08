@@ -17,3 +17,44 @@
 @media(max-width:650px){#stage{flex-basis:clamp(220px,35vh,360px);height:clamp(220px,35vh,360px)}#dialogue.reading{min-height:230px}}@media(prefers-reduced-motion:reduce){#transition-cue.show{animation:none;opacity:1}}
 #dialogue.reading{height:240px;min-height:240px;grid-template-rows:28px minmax(0,1fr) 48px}#dialogue.reading #text{min-height:0;max-height:none;overflow:auto;margin:4px 0 8px}#dialogue.reading #choices button{height:48px}
 @media(max-width:650px){#dialogue.reading{height:230px;min-height:230px}}
+
+/* Visual-novel composition: the picture fills the screen; the message floats above it. */
+#game-screen{position:relative;isolation:isolate;width:100%;max-width:none;min-height:100dvh;overflow:hidden;background:#14122b}
+#game-screen>header,#dashboard{position:relative;z-index:3;flex:none;background:#17162ce8}
+#dashboard{background:#1c1b34d9}
+#stage{position:absolute;inset:0;z-index:0;width:100%;height:100%;min-height:0;overflow:hidden}
+#background{background-position:center;background-repeat:no-repeat}
+#cast{inset:0;align-items:flex-end}
+.actor{flex:0 0 33.333%;width:33.333%;max-width:none;height:100%}
+.atlas-frame{width:min(48vw,70dvh,640px);max-width:none;max-height:100%;bottom:0}
+.actor img{height:min(78dvh,780px);width:min(48vw,640px);top:auto;bottom:0;max-width:none}
+#dialogue{position:absolute;z-index:4;left:2.5%;right:2.5%;bottom:max(2.5%,env(safe-area-inset-bottom));min-height:0;max-height:min(64dvh,680px);overflow:auto;padding:16px clamp(18px,3vw,42px);border:2px solid #f5a9c0;border-radius:10px;background:#17152eeF;box-shadow:0 8px 24px #08071785}
+#dialogue.reading{height:clamp(138px,19dvh,190px);min-height:0;grid-template-rows:28px minmax(0,1fr) 42px}
+#dialogue.reading #text{font-size:clamp(17px,1.8vw,24px);line-height:1.5}
+#dialogue.reading #choices{justify-content:flex-end}
+#dialogue.reading #choices button{height:42px;min-height:42px;min-width:150px;padding:6px 16px}
+#notice{position:absolute;z-index:5;right:3%;bottom:calc(max(2.5%,env(safe-area-inset-bottom)) + clamp(138px,19dvh,190px) + 7px);margin:0;padding:0 8px;min-height:0;background:#17152ed9;border-radius:5px;pointer-events:none}
+#notice:empty{display:none}
+#beat{bottom:calc(max(2.5%,env(safe-area-inset-bottom)) + clamp(138px,19dvh,190px) + 10px)}
+#transition-cue{top:24%}
+@media(max-width:650px){
+ #game-screen{overflow:hidden}
+ #dialogue{left:3%;right:3%;bottom:max(2%,env(safe-area-inset-bottom));padding:12px 16px;max-height:60dvh}
+ #dialogue.reading{height:clamp(142px,22dvh,180px);grid-template-rows:24px minmax(0,1fr) 42px}
+ #dialogue.reading #choices button{min-width:130px}
+ .atlas-frame{width:min(58vw,65dvh,430px)}
+ .actor img{height:min(72dvh,650px);width:min(58vw,430px)}
+ #notice{bottom:calc(max(2%,env(safe-area-inset-bottom)) + clamp(142px,22dvh,180px) + 6px)}
+ #beat{bottom:calc(max(2%,env(safe-area-inset-bottom)) + clamp(142px,22dvh,180px) + 8px)}
+}
+.atlas-frame{bottom:4dvh}.actor img{bottom:4dvh}
+@media(max-width:650px){.atlas-frame,.actor img{bottom:min(13dvh,110px)}}
+@media(max-height:500px) and (min-width:651px){
+ #game-screen>header{padding:4px 12px;gap:6px}
+ #game-screen>header button{min-height:40px;padding:5px 10px}
+ #dashboard{padding:3px 12px;font-size:12px;gap:3px 8px}
+ #quick-stats{gap:2px 7px}
+ #focus-person{min-height:32px;padding:2px 6px}
+ #focus-status{display:none}
+ #dialogue.reading{height:130px;padding-top:10px;padding-bottom:10px;grid-template-rows:24px minmax(0,1fr) 42px}
+}
