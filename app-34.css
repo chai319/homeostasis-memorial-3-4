@@ -58,3 +58,23 @@
  #focus-status{display:none}
  #dialogue.reading{height:130px;padding-top:10px;padding-bottom:10px;grid-template-rows:24px minmax(0,1fr) 42px}
 }
+
+/* Calibrate each atlas around a shared visual scale, not just the sheet size. */
+#cast{left:5%;right:5%}
+.actor{--portrait-scale:1;--portrait-size:min(36vw,56dvh,520px)}
+.actor[data-character="shion"]{--portrait-scale:.95}
+.actor[data-character="shito"]{--portrait-scale:1.08}
+.actor[data-character="chin"]{--portrait-scale:1.02}
+.actor[data-character="lauren"]{--portrait-scale:.98}
+.actor[data-character="hyoma"]{--portrait-scale:1.08}
+.actor[data-character="kanade"]{--portrait-scale:1.06}
+.actor[data-character="toni_female"],.actor[data-character="toni_male"]{--portrait-scale:.91}
+.actor[data-character="yoko"],.actor[data-character="toko"]{--portrait-scale:.97}
+.actor[data-character="eguchi_night"]{--portrait-scale:1.06}
+.atlas-frame{width:calc(var(--portrait-size) * var(--portrait-scale));bottom:clamp(42px,11dvh,110px)}
+.actor img{width:calc(var(--portrait-size) * var(--portrait-scale));height:min(66dvh,680px);bottom:clamp(42px,11dvh,110px)}
+@media(max-width:650px){
+ .actor{--portrait-size:min(51vw,53dvh,410px)}
+ .atlas-frame,.actor img{bottom:clamp(80px,15dvh,130px)}
+}
+@media(max-height:500px) and (min-width:651px){.atlas-frame,.actor img{bottom:8dvh}}

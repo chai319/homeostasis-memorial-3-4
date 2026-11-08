@@ -183,11 +183,11 @@
     },
     {
       "id": "chin_atlas",
-      "file": "web/chin_atlas.webp",
-      "sha256": "7b0a61e78882d8290269670efd8da2101bc08376b84e28a7c885ef2bc4b7f2a3",
+      "file": "web/chin_atlas_clear_20261108.webp",
+      "sha256": "3fe63f048bb285d83e4bae000db6ac903b83cfd6c4361d368441d15dfce5189c",
       "prompt": "Edit the referenced original fictional visual-novel student into a production expression sprite atlas. Preserve exact identity, hair, school uniform, props and illustration style. Transparent background. One precisely regular grid, 3 columns by 2 rows, six equal square cells, no margins or gutters. Every cell is the same upper-body portrait, waist up, same head position and scale, hands below the chest. Reading order left to right then next row: neutral, warm smile, cold and chilly, sweaty and hot, irritated, blushing. No words, labels, grid lines, new accessories or other people. Each portrait stays wholly inside its own cell. School-appropriate expressions and clothing.",
       "generator": "built-in imagegen",
-      "status": "contact sheet reviewed: identity, grid and expression order",
+      "status": "2026-11-08 透過背景・表情シート再生成",
       "columns": 3,
       "rows": 2,
       "character": "chin",
@@ -199,8 +199,9 @@
         "irritated",
         "blush"
       ],
-      "encoding": "WebP q80, original pixel dimensions",
-      "master_sha256": "29018c4521ddd1ebfcdb2c12664f0859a51b139e942352ececf0ee525352012b"
+      "encoding": "WebP q85, alpha q100, original pixel dimensions",
+      "edit_prompt": "既存の人物・衣装・表情・コマ配置を維持し、人物の周囲の白い残像を除いて背景を透過。",
+      "master_sha256": "cf14e9a983f00bf9e4082c8ef447410f972941b1e8aabc65b2ed598bb31f3a08"
     },
     {
       "id": "lauren_atlas",
@@ -388,7 +389,7 @@
     },
     {
       "id": "eguchi_night_atlas",
-      "file": "web/eguchi_night_atlas.webp",
+      "file": "web/eguchi_night_atlas_clear_20261108.webp",
       "character": "eguchi_night",
       "columns": 2,
       "rows": 1,
@@ -396,12 +397,14 @@
         "night",
         "night_smile"
       ],
-      "sha256": "361dfc5012d59c5e9b037ff099dd5d05b5d6531caf7ae35e38e15301348015cd",
+      "sha256": "a283cbc7696b5dc2f7f4c2457073c043cf40a2fcb99851dcf6b803cd2e50ea7a",
       "reference": "exec-77564a23-78e8-4a84-9cc9-7638f907241e.png",
       "prompt": "Correct white cardigan / tied-back night hairstyle while preserving identity and atlas arrangement",
-      "status": "contact sheet reviewed: identity, grid and expression order",
-      "encoding": "WebP q80, original pixel dimensions",
-      "master_sha256": "2ac904ccf83f533456156677a6f70470a5367cbf77dd697279f06d43f2a6afc0"
+      "status": "2026-11-08 透過背景・表情シート再生成",
+      "encoding": "WebP q85, alpha q100, original pixel dimensions",
+      "edit_prompt": "既存の人物・衣装・表情・コマ配置を維持し、人物の周囲の白い残像を除いて背景を透過。",
+      "generator": "built-in imagegen",
+      "master_sha256": "8846b17c6a57ae665a4ce8c65fa639d394903364bd5afd9a7ec380cb719ed16e"
     }
   ]
 }
